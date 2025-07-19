@@ -1,0 +1,7 @@
+src\test\features\Blog.feature:7
+src\test\features\ForgotPassword.feature:16:17:18
+src\test\features\Login_new.feature:9:24:25:26:27:30
+src\test\features\ProductReview.feature:10:19:26
+src\test\features\addtocart.feature:16
+src\test\features\login.feature:7:23:24:25:26:31
+src\test\features\useraccount.feature:11:18:25

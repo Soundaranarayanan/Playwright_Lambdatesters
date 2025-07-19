@@ -3,6 +3,7 @@ import PlaywrightWrapper from "../helper/wrapper/PlaywrightWrappers";
 
 export default class BlogPage {
   private base: PlaywrightWrapper;
+  // private page:Page;
 
   constructor(private page: Page) {
     this.base = new PlaywrightWrapper(page);
