@@ -18,4 +18,35 @@ async navigate(link:string | Locator){
         this.page.waitForNavigation({waitUntil:"load"}),
     ]);
 }
+
+
+async click(locator: string | Locator) {
+    await this.waitAndClick(locator);
+  }
+
+  async type(locator: string | Locator, value: string) {
+    const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+    await element.waitFor({ state: "visible" });
+    await element.fill(value);
+  }
+
+  async check(locator: string | Locator) {
+    const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+    await element.waitFor({ state: "visible" });
+    if (!(await element.isChecked())) {
+      await element.check();
+    }
+  }
+
+  async getText(locator: string | Locator): Promise<string> {
+    const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+    await element.waitFor({ state: "visible" });
+    const text = await element.textContent();
+    return text?.trim() || "";
+  }
+
+  async waitForVisibility(locator: string | Locator) {
+    const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+    await element.waitFor({ state: "visible" });
+  }
 }

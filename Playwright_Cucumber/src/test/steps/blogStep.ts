@@ -13,7 +13,7 @@ let blogPage: BlogPage;
 // });
 
 When('the user clicks on the Blog button', async function () {
-    blogPage = new BlogPage(pageFixture.page);
+    blogPage = new BlogPage(pageFixture.page!);
   await blogPage.clickBlog();
 });
 

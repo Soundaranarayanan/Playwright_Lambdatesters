@@ -1,18 +1,25 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "@playwright/test";
 import { pageFixture } from '../../hooks/pageFixture';
-import LoginPage from "../../pages/login_new_Page";
+import LoginPage from '../../pages/login_new_Page';
 import * as testData from "../../helper/testData/login.json";
+import dotenv from 'dotenv';
+
+
+dotenv.config();
 
 let loginPage: LoginPage;
 
-Given('the user is on the homepage',{ timeout: 20000 }, async function () {
-  await pageFixture.page.goto("https://ecommerce-playground.lambdatest.io/");
+// Given('the user is on the homepage',{ timeout: 20000 }, async function () {
+//   // await pageFixture.page?.goto(process.env.BASE_URL);
+//   await pageFixture.page?.goto("https://ecommerce-playground.lambdatest.io/");
 
-  loginPage = new LoginPage(pageFixture.page);
-});
+//   pageFixture.logger?.info('Navigated to the homepage');
+//   loginPage = new LoginPage(pageFixture.page!);
+// });
 
 When('the user clicks on My Account', { timeout: 20000 },async function () {
+  loginPage = new LoginPage(pageFixture.page!);
   await loginPage.clickMyAccount();
 });
 

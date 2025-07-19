@@ -25,6 +25,8 @@ BeforeAll(async function () {
 
 
 Before(   async function ({pickle}) {
+  
+// browser = await chromium.launch({ headless: false }); // or true
   const scenarioName = pickle.name + pickle.id;
   context = await browser.newContext();
   const page = await context.newPage();
@@ -49,5 +51,3 @@ After(async function ({pickle,result}) {
 AfterAll(async function () {
   await browser.close();
 });
-
-
