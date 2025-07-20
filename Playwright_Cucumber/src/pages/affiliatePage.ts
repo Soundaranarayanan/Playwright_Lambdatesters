@@ -23,8 +23,7 @@ export default class AffiliatePage {
     phone: '#input-telephone',
     password: '#input-password',
     confirmPassword: '#input-confirm',
-    // privacyPolicyCheckbox: 'input[type="checkbox"][name="agree"]',
-     privacyPolicyCheckbox: '//*[@id="content"]/form/div/div/div/label/text()',
+    privacyPolicyCheckbox: '//*[@id="content"]/form/div/div/div/label/text()',
     submitBtn: '//*[@id="content"]/form/div/div/input',
     successAlert: "//h1[@class='page-title my-3']",
     continueBtn: "//a[@class='btn btn-primary']",
@@ -33,22 +32,15 @@ export default class AffiliatePage {
     checkbox: "//input[@type='checkbox']",
     affContinue: "//input[@class='btn btn-primary']",
     affSuccessMsg: "(//div[@class='alert alert-success alert-dismissible'])[1]",
-    affErrorMsg: "(//div[@class='text-danger'])[1]"
+    affErrorMsg: "(//div[@class='text-danger'])[1]",
+    payeenameWarn: "//*[@id='account-affiliate']/div[1]/text()",
+    checkboxWarn: "//*[@id='account-affiliate']/div[1]/text()"
   };
 
   async clickMyAccount() {
-    // await this.base.click(this.Elements.myAccount);
-//     await this.page.waitForSelector(this.Elements.myAccount, { state: 'visible', timeout: 5000 });
-//   await this.base.click(this.Elements.myAccount);
-//   await this.page.waitForTimeout(1000); // Small wait for dropdown animation
-
-const myAccountElement = this.page.locator(this.Elements.myAccount);
-
-  // Hover to trigger dropdown
+  const myAccountElement = this.page.locator(this.Elements.myAccount);
   await myAccountElement.hover();
-
-  // Wait for the Register option to be visible
-  await this.page.waitForSelector(this.Elements.registerBtn, { state: 'visible', timeout: 3000 });
+  await this.page.waitForSelector(this.Elements.registerBtn, { state: 'visible', timeout: 5000 });
   }
 
   async clickRegisterButton() {
@@ -69,29 +61,11 @@ const myAccountElement = this.page.locator(this.Elements.myAccount);
     await this.base.type(this.Elements.confirmPassword, confirmpass);
   }
 
-//   async enterRegistrationDetails(fname: string, lname: string, email: string, phone: string, password: string, confirmpass: string) {
-//     // Generate unique email
-//     const timestamp = Date.now(); // Example: 1721385600000
-//     const uniqueEmail = `testuser${timestamp}@example.com`;
-
-//     // Store it somewhere if you need it later (optional)
-//     console.log("Generated Email:", uniqueEmail);
-
-//     await this.base.type(this.Elements.firstName, fname);
-//     await this.base.type(this.Elements.lastName, lname);
-//     await this.base.type(this.Elements.email, uniqueEmail); // use dynamic email
-//     await this.base.type(this.Elements.phone, phone);
-//     await this.base.type(this.Elements.password, password);
-//     await this.base.type(this.Elements.confirmPassword, confirmpass);
-//   }
-
-
   async agreePrivacyPolicy() {
     // await this.base.check(this.Elements.privacyPolicyCheckbox);
   }
 
   async submitRegistration() {
-    // await this.base.click(this.Elements.submitBtn);
     await this.page.locator('#input-agree').check({ force: true });
     await this.base.click(this.Elements.submitBtn);
 
@@ -111,12 +85,16 @@ const myAccountElement = this.page.locator(this.Elements.myAccount);
   }
 
   async enterPayeeName(name: string) {
+  if (name.trim() !== "") {
     await this.base.type(this.Elements.payeeName, name);
   }
+}
 
-  async clickCheckBox() {
+  async clickCheckBoxIfRequired(shouldClick: boolean) {
+  if (shouldClick) {
     await this.base.check(this.Elements.checkbox);
   }
+}
 
   async clickAffiliateContinue() {
     await this.base.click(this.Elements.affContinue);
