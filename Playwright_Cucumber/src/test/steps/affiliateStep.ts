@@ -6,24 +6,7 @@ import AffiliatePage from '../../pages/affiliatePage';
        
 let affiliatePage:AffiliatePage;
 
-// Given('the user is on the homepage', async function () {
-//      affiliatePage = new AffiliatePage(pageFixture.page!);
-//   await pageFixture.page!.goto('https://ecommerce-playground.lambdatest.io/');
-// });
-
-        //  When('When the user clicks on My Account and click on register', async function () {
-        //    affiliatePage = new AffiliatePage(pageFixture.page!);
-        //     // await affiliatePage.clickMyAccount();
-        //     await affiliatePage.clickRegisterButton();
-        //  });
-   
-        //  When('clicks the register button', async function () {
-        //    await affiliatePage.clickRegisterButton();
-        //  });
-
          When('the user clicks on My Account and click on register', async function () {
-        //    // Write code here that turns the phrase above into concrete actions
-        //    return 'pending';
         affiliatePage = new AffiliatePage(pageFixture.page!);
             await affiliatePage.clickMyAccount();
             await affiliatePage.clickRegisterButton();
@@ -35,32 +18,27 @@ let affiliatePage:AffiliatePage;
         await affiliatePage.verifyRegistrationPage();
          });
 
- 
+          When(
+            'the user enters {string}, {string}, {string}, {string}, {string} and {string}',
+            async function (fname, lname, email, phone, password, confirmpass) {
+              // Generate unique email if placeholder is 'random'
+              const finalEmail =
+                email === 'random'
+                  ? `user_${Date.now()}@testmail.com`
+                  : email;
 
-        //  When('the user enters {string}, {string}, {string}, {string}, {string} and {string}', async function (string, string2, string3, string4, string5, string6) {
-        //    await affiliatePage.enterRegistrationDetails(fname, lname, email, phone, password, confirmPass);
-        //  });
-When('the user enters {string}, {string}, {string}, {string}, {string} and {string}', 
-  async function (fname, lname, email, phone, password, confirmPass) {
-    await affiliatePage.enterRegistrationDetails(fname, lname, email, phone, password, confirmPass);
-});
+              console.log("Generated email:", finalEmail); 
 
-// When(
-//   'the user enters {string}, {string}, {string}, {string}, {string} and {string}',
-//   async function (fname, lname, email, phone, password, confirmpass) {
-//     affiliatePage = new AffiliatePage(this.pageFixture.page);
-
-//     // Generate unique email
-//     // const uniqueEmail = `user_${Date.now()}@testmail.com`;
-
-//     // await affiliatePage.enterRegistrationDetails(fname, lname, uniqueEmail, phone, password, confirmpass);
-
-
-//     const finalEmail = email === 'random' ? `user_${Date.now()}@test.com` : email;
-// await affiliatePage.enterRegistrationDetails(fname, lname, finalEmail, phone, password, confirmpass);
-//   }
-// );
-
+              await affiliatePage.enterRegistrationDetails(
+                fname,
+                lname,
+                finalEmail,
+                phone,
+                password,
+                confirmpass
+              );
+            }
+          );
 
          When('agrees to the Privacy Policy',async function () {
         //   await affiliatePage.agreePrivacyPolicy();
@@ -95,19 +73,19 @@ When('the user enters {string}, {string}, {string}, {string}, {string} and {stri
           await affiliatePage.enterPayeeName(name);
          });
 
-   
-         When('clicks on checkbox', async function () {
-           await affiliatePage.clickCheckBox();
-});
-
-  
+        When('clicks on checkbox based on {string}', async function (checkbox) {
+          const shouldClick = checkbox.toLowerCase() === 'yes';
+          await affiliatePage.clickCheckBoxIfRequired(shouldClick);
+        });
 
          When('clicks on register continue button', { timeout: 20000 },async function () {
             await affiliatePage.clickAffiliateContinue();
          });
 
   
-
-         Then('the user sees {string} based on {string}',{ timeout: 20000 }, async function (message, check) {
-           await affiliatePage.verifyAffiliateMessage(message, check);
+         Then('the user should see the affiliate message as {string}', async function (expectedMessage) {
+            const messageElement = await this.page.locator('.alert'); // or the exact selector of the message box
+            const actualMessage = await messageElement.textContent();
+            expect(actualMessage.trim()).toContain(expectedMessage);
          });
+
