@@ -14,6 +14,7 @@ import { getEnv } from '../helper/env/env';
 import { invokeBrowser } from '../helper/browsers/browserManager';
 import HeaderPage from '../pages/HeaderPage';
 import RegisterPage from '../pages/registerPage';
+import ProductComaprePage from '../pages/productComparePage';
 let browser: Browser;
 let context: BrowserContext;
 
@@ -38,6 +39,7 @@ Before(   async function ({pickle}) {
   // Initialize page objects
   pageFixture.headerPage = new HeaderPage(page);
   pageFixture.registerPage = new RegisterPage(page);
+  pageFixture.productComparePage=new ProductComaprePage(page);
   
 });
 
@@ -56,6 +58,7 @@ After(async function ({pickle,result}) {
     // Clean up page objects
     pageFixture.headerPage = undefined;
     pageFixture.registerPage = undefined;
+    pageFixture.productComparePage =undefined;
   });
 
 AfterAll(async function () {
