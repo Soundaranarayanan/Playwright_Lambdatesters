@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "login-with-valid-and-invalid-credentials-with-logout;user-tries-to-login-with-valid-credentials",
+        "id": "jeevika_01may2025_lambdatesters_addons;user-clicks-on-camera-text-to-navigate-to-camera-product-page",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "User tries to login with valid credentials",
+        "line": 13,
+        "name": "user clicks on camera text to navigate to camera product page",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1128260899
+              "duration": 634536600
             }
           },
           {
@@ -27,59 +27,59 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3374313600
+              "duration": 3317721199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
+            "line": 14,
+            "name": "the user clicks on addons",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\addonsStep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1591319100
+              "duration": 531136000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the user enters valid credentials",
+            "line": 15,
+            "name": "clicks on designs option",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
+              "location": "src\\test\\steps\\addonsStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 2002038300
+              "duration": 1848613700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks on the Login button",
+            "line": 16,
+            "name": "clicks on camera text",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
+              "location": "src\\test\\steps\\addonsStep.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1069572500
+              "duration": 2445471300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
-            "name": "the user should see the My Account page",
+            "line": 17,
+            "name": "the user should be navigated to camera page",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:33"
+              "location": "src\\test\\steps\\addonsStep.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 973133699
+              "duration": 945861899
             }
           },
           {
@@ -87,24 +87,24 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 131612600
+              "duration": 187968500
             }
           }
         ],
         "tags": [
           {
-            "name": "@login_valid_input",
-            "line": 7
+            "name": "@addOns_camera_text_click",
+            "line": 12
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "login-with-valid-and-invalid-credentials-with-logout",
+    "id": "jeevika_01may2025_lambdatesters_addons",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login with valid and invalid credentials with logout",
+    "name": "Jeevika_01MAY2025_LambdaTesters_AddOns",
     "tags": [],
-    "uri": "src\\test\\features\\Login.feature"
+    "uri": "src\\test\\features\\Addons.feature"
   }
 ]
