@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "jeevika_01may2025_lambdatesters_addons;user-clicks-on-camera-text-to-navigate-to-camera-product-page",
+        "id": "add-a-comment-to-the-lambdatesters-blog;adding-a-valid-comment-to-the-blog",
         "keyword": "Scenario",
-        "line": 13,
-        "name": "user clicks on camera text to navigate to camera product page",
+        "line": 7,
+        "name": "Adding a valid comment to the blog",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 634536600
+              "duration": 694472200
             }
           },
           {
@@ -27,59 +27,104 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3317721199
+              "duration": 3194363600
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
-            "name": "the user clicks on addons",
+            "line": 8,
+            "name": "the user clicks on the Blog button",
             "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:9"
+              "location": "src\\test\\steps\\blogStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 531136000
+              "duration": 733290100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user selects any article from the blog",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1560728100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user is navigated to the selected blog page",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097284500
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "email",
+                      "comment"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jeev",
+                      "jeev@example.com",
+                      "This blog was very informative and well written. Keep it up!"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enters the following comment details:",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258994999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "clicks on designs option",
+            "name": "the user clicks on the Post Comment button",
             "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:15"
+              "location": "src\\test\\steps\\blogStep.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 1848613700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "clicks on camera text",
-            "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2445471300
+              "duration": 280552999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
-            "name": "the user should be navigated to camera page",
+            "line": 16,
+            "name": "the user should see the message \"Thank you for your comment. It has been submitted to the webmaster for approval.\"",
             "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:32"
+              "location": "src\\test\\steps\\blogStep.ts:64"
             },
             "result": {
               "status": "passed",
-              "duration": 945861899
+              "duration": 401213500
             }
           },
           {
@@ -87,24 +132,24 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 187968500
+              "duration": 157408100
             }
           }
         ],
         "tags": [
           {
-            "name": "@addOns_camera_text_click",
-            "line": 12
+            "name": "@blog_filling",
+            "line": 6
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "jeevika_01may2025_lambdatesters_addons",
+    "id": "add-a-comment-to-the-lambdatesters-blog",
     "line": 1,
     "keyword": "Feature",
-    "name": "Jeevika_01MAY2025_LambdaTesters_AddOns",
+    "name": "Add a comment to the LambdaTesters Blog",
     "tags": [],
-    "uri": "src\\test\\features\\Addons.feature"
+    "uri": "src\\test\\features\\Blog.feature"
   }
 ]

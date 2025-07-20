@@ -13,22 +13,22 @@ report.generate({
   jsonDir: "test-results",
   reportPath: "multipleReport",
   reportName:"Playwright BDD Report",
-  pageTitle:"Book Cart Application Test Report",
+  pageTitle:"Ecommerce Playground Lambdatest Test Report",
   metadata: {
     browser: {
       name: "chrome",
       version: "60",
     },
-    device: "Soundar - Machine",
+    device: "Local Machine",
     platform: {
       name: "Windows",
-      version: "10",
+      version: "11",
     },
   },
   customData: {
     title: "Test info",
     data: [
-      { label: "Project", value: "Book Cart Project" },
+      { label: "Project", value: "Ecommerce Playground LambdaTest Project" },
       { label: "Release", value: "1.2.3" },
       { label: "Cycle", value: "smoke-1" },
       { label: "Execution Start Time", value: new Date().toLocaleString('en-US', dateFormatOptions) },
