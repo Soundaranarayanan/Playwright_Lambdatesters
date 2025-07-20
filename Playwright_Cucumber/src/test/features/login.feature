@@ -1,8 +1,9 @@
-Feature: SOUNDAR_10JUL2025_LambdaTesters_Login
+Feature: Login with valid and invalid credentials with logout
 
   Background:
     Given the user is on the homepage
     When the user clicks on My Account and selects login
+
   @login_valid_input
   Scenario: User tries to login with valid credentials
     
@@ -24,7 +25,6 @@ Feature: SOUNDAR_10JUL2025_LambdaTesters_Login
       | atk62@gmail.com  | 1234         | Warning: No match for E-Mail Address and/or Password.                                |check2 |
       |         | 12345         |  Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.  |check3 |
       |                  |          |Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.|check4|
-
 
 
 @logout

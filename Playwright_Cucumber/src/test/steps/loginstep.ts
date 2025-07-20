@@ -9,8 +9,6 @@ dotenv.config();
 let loginPage: LoginPage;
 
 Given('the user is on the homepage', async function () {
-  // await pageFixture.page?.goto(process.env.BASE_URL);
-  // In your loginstep.ts, replace line 12 with:
 await pageFixture.page?.goto(process.env.BASE_URL || 'https://ecommerce-playground.lambdatest.io/');
   pageFixture.logger?.info('Navigated to the homepage');
   loginPage = new LoginPage(pageFixture.page!);
@@ -21,16 +19,16 @@ When('the user clicks on My Account and selects login', async function () {
   pageFixture.logger?.info('Clicked on My Account and selected Login');
 });
 
-// When('the user enters valid credentials', async function () {
-//   await loginPage.enterUsername(process.env.VALID_EMAIL!);
-//   await loginPage.enterPassword(process.env.VALID_PASSWORD!);
-//   pageFixture.logger?.info('Entered valid credentials');
-// });
+When('the user enters valid credentials', async function () {
+  await loginPage.enterUsername(process.env.VALID_EMAIL!);
+  await loginPage.enterPassword(process.env.VALID_PASSWORD!);
+  pageFixture.logger?.info('Entered valid credentials');
+});
 
-// When('the user clicks on the Login button', async function () {
-//   await loginPage.clickLoginButton();
-//   pageFixture.logger?.info('Clicked on the Login button');
-// });
+When('the user clicks on the Login button', async function () {
+  await loginPage.clickLoginButton();
+  pageFixture.logger?.info('Clicked on the Login button');
+});
 
 Then('the user should see the My Account page', async function () {
   await loginPage.verifyLoginSuccess();
@@ -56,8 +54,8 @@ Then('the user should see the {string} and {string}', async function (expectedRe
     possibleMessages.some(msg => warningText.includes(msg)),
     `Expected warning to be one of the possible messages but got: "${warningText}"`
   ).toBe(true);
-  // expect(warningText).toContain(expectedResult);
 });
+
 Then('the user logs out', async function () {
   await loginPage.logout();
   pageFixture.logger?.info('User logged out');
@@ -68,11 +66,3 @@ Then('the user should see the Account Logout page', async function () {
   expect(logoutHeading).toContain('Account Logout');
   pageFixture.logger?.info('Logout confirmation verified');
 });
-
-
-// Then('login should fail', async function () {
-//   const errorToast = pageFixture.page!.locator("//mat-error[text()='Password is required']");
-//   await expect(errorToast).toBeVisible({ timeout: 5000 });
-//   await expect(errorToast).toContainText('Password is required');
-//   pageFixture.logger?.info('Login failed as expected');
-// });
