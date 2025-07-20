@@ -21,11 +21,9 @@ export default class LoginPage {
 
 async clickLoginOption() {
   const myAccount = this.page.locator("(//div[@id='entry_217834']//a[contains(@class,'dropdown-toggle')])[3]");
-  await myAccount.waitFor({ state: 'visible' });
+  await myAccount.waitFor({ state: 'visible',timeout:9000 });
   await myAccount.click();
-  await this.page.waitForTimeout(500); 
 }
-
 
   async enterUsername(username: string) {
     await this.page.locator(this.Elements.username).fill(username);
@@ -48,9 +46,8 @@ async clickLoginOption() {
   await warningLocator.waitFor({ state: 'visible' });
   return (await warningLocator.textContent())?.trim() || '';
 }
+
 async logout() {
-
-
   const logoutBtn = this.page.locator("//a[text()=' Logout']");
   await logoutBtn.waitFor({ state: 'visible' });
   await logoutBtn.click();
@@ -61,7 +58,6 @@ async getLogoutConfirmation(): Promise<string> {
   await logoutHeading.waitFor({ state: 'visible' });
   return (await logoutHeading.textContent())?.trim() || '';
 }
-
 }
 
 
