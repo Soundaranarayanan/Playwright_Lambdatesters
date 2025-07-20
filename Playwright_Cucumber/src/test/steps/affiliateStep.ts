@@ -6,48 +6,74 @@ import AffiliatePage from '../../pages/affiliatePage';
        
 let affiliatePage:AffiliatePage;
 
-// Given('the user is on the homepage', async function () {
-//      affiliatePage = new AffiliatePage(pageFixture.page!);
-//   await pageFixture.page!.goto('https://ecommerce-playground.lambdatest.io/');
-// });
-
          When('the user clicks on My Account and click on register', async function () {
-        //    // Write code here that turns the phrase above into concrete actions
-        //    return 'pending';
         affiliatePage = new AffiliatePage(pageFixture.page!);
             await affiliatePage.clickMyAccount();
             await affiliatePage.clickRegisterButton();
          });
 
-         When('the user clicks on continue on register', async function () {
-         await affiliatePage.clickContinueOnRegister();
+         Then('the user should see the registration page form', { timeout: 20000 }, async function () {
+           await affiliatePage.verifyRegistrationPage();
          });
 
+
+          When('the user enters the following {string}, {string}, {string}, {string}, {string} and {string}', async function (fname, lname, email, phone, password, confirmpass) {
+            // Generate unique email if placeholder is 'random'
+              const finalEmail =
+                email === 'random'
+                  ? `user_${Date.now()}@testmail.com`
+                  : email;
+
+              console.log("Generated email:", finalEmail); 
+
+              await affiliatePage.enterRegistrationDetails(
+                fname,
+                lname,
+                finalEmail,
+                phone,
+                password,
+                confirmpass
+              );
+         });
+
+         When('agrees to the Privacy Policy checkbox', async function () {
+           //   await affiliatePage.agreePrivacyPolicy();
+         });
+
+          When('submits the registration form  successfully',{timeout:10000}, async function () {
+            await affiliatePage.submitRegistration();
+         });
+
+           Then('the user should see {string} message', async function (message) {
+           await affiliatePage.verifySuccessMessage(message);
+         });
+
+             When('the user clicks on continue on register page', async function () {
+           await affiliatePage.clickContinueOnRegister();
+         });
   
 
          When('the user clicks on register your affiliate information', async function () {
            await affiliatePage.clickRegisterAffiliate();
          });
 
- 
-
          When('enters payee name {string}', async function (name) {
           await affiliatePage.enterPayeeName(name);
          });
 
-   
-         When('clicks on checkbox', async function () {
-           await affiliatePage.clickCheckBox();
-});
-
-  
+        When('clicks on checkbox based on {string}', async function (checkbox) {
+          const shouldClick = checkbox.toLowerCase() === 'yes';
+          await affiliatePage.clickCheckBoxIfRequired(shouldClick);
+        });
 
          When('clicks on register continue button', { timeout: 20000 },async function () {
             await affiliatePage.clickAffiliateContinue();
          });
 
   
-
-         Then('the user sees {string} based on {string}',{ timeout: 20000 }, async function (message, check) {
-           await affiliatePage.verifyAffiliateMessage(message, check);
+         Then('the user should see the affiliate message as {string}', async function (expectedMessage) {
+            const messageElement = await this.page.locator('.alert'); // or the exact selector of the message box
+            const actualMessage = await messageElement.textContent();
+            expect(actualMessage.trim()).toContain(expectedMessage);
          });
+

@@ -1,4 +1,3 @@
-src\test\features\Affiliate.feature:24:25
-src\test\features\Login_new.feature:9:24:25:26:27:30
+src\test\features\Login_new.feature:10:25:26:27:28:31
 src\test\features\login.feature:7:23:24:25:26:31
 src\test\features\useraccount.feature:11:18:25

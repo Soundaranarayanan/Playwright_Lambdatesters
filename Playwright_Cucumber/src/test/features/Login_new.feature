@@ -1,5 +1,6 @@
 Feature: Login with valid and invalid credentials with logout
 
+
   Background:
     Given the user is on the homepage
     When the user clicks on My Account

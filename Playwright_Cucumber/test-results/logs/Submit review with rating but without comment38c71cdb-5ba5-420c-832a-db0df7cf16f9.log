@@ -1,7 +1,0 @@
-INFO 2025-07-20 16:08:24: Navigated to the homepage
-INFO 2025-07-20 16:08:28: Initialized ProductReview page object
-INFO 2025-07-20 16:08:31: Entered reviewer name: soundar
-INFO 2025-07-20 16:08:31: Left the Review field blank
-INFO 2025-07-20 16:08:31: Selected 4-star rating
-INFO 2025-07-20 16:08:31: Clicked on Continue to submit review
-INFO 2025-07-20 16:08:32: Captured error message: "Warning: Review Text must be between 25 and 1000 characters!"
