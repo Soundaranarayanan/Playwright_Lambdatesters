@@ -12,6 +12,8 @@ import { options } from '../helper/util/logger';
 import { pageFixture } from './pageFixture';
 import { getEnv } from '../helper/env/env';
 import { invokeBrowser } from '../helper/browsers/browserManager';
+import HeaderPage from '../pages/HeaderPage';
+import RegisterPage from '../pages/registerPage';
 let browser: Browser;
 let context: BrowserContext;
 
@@ -33,6 +35,10 @@ Before(   async function ({pickle}) {
   pageFixture.page = page;
   pageFixture.logger = createLogger(options(scenarioName));
   
+  // Initialize page objects
+  pageFixture.headerPage = new HeaderPage(page);
+  pageFixture.registerPage = new RegisterPage(page);
+  
 });
 
 After(async function ({pickle,result}) {
@@ -46,6 +52,10 @@ After(async function ({pickle,result}) {
     }
     await context.close();
     await pageFixture.logger?.close();
+    
+    // Clean up page objects
+    pageFixture.headerPage = undefined;
+    pageFixture.registerPage = undefined;
   });
 
 AfterAll(async function () {

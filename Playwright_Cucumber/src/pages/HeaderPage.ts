@@ -12,6 +12,7 @@ export default class HeaderPage{
         userMenu:"//button[contains(@class,'mat-focus-indicator mat-menu-trigger')]",
         myOrder:"//button[text()='My Orders' and @role='menuitem']",
         logoutLink:"//button[text()='Logout' and @role='menuitem']",
+        myAccountLink:"//a[@class='icon-left both nav-link dropdown-toggle' and @href='https://ecommerce-playground.lambdatest.io/index.php?route=account/account']"
     }
 private get loginLink():Locator{
     return this.page.getByRole('button',{name:'Login'});
@@ -29,5 +30,18 @@ await this.base.waitAndClick("mat-option[role='option']");
 async verifyLoginSuccess(){
     await expect(this.page.locator(this.headerPageElements.userMenu)).toBeVisible();
 }
+
+ async clickOnMyAccount(){
+        return this.base.waitAndClick(this.headerPageElements.myAccountLink);
+    }
+
+
+    async waitformsometime(time: number){
+        return this.base.waitforsometime(time);
+    }
+
+    async launchUrl(url: string){
+        return this.base.goto(url);
+    }
 
 }

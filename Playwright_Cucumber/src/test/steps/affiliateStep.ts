@@ -12,16 +12,13 @@ let affiliatePage:AffiliatePage;
             await affiliatePage.clickRegisterButton();
          });
 
-  
-
-         Then('the user should see the registration page',  { timeout: 20000 },async function () {
-        await affiliatePage.verifyRegistrationPage();
+         Then('the user should see the registration page form', { timeout: 20000 }, async function () {
+           await affiliatePage.verifyRegistrationPage();
          });
 
-          When(
-            'the user enters {string}, {string}, {string}, {string}, {string} and {string}',
-            async function (fname, lname, email, phone, password, confirmpass) {
-              // Generate unique email if placeholder is 'random'
+
+          When('the user enters the following {string}, {string}, {string}, {string}, {string} and {string}', async function (fname, lname, email, phone, password, confirmpass) {
+            // Generate unique email if placeholder is 'random'
               const finalEmail =
                 email === 'random'
                   ? `user_${Date.now()}@testmail.com`
@@ -37,37 +34,28 @@ let affiliatePage:AffiliatePage;
                 password,
                 confirmpass
               );
-            }
-          );
-
-         When('agrees to the Privacy Policy',async function () {
-        //   await affiliatePage.agreePrivacyPolicy();
          });
 
-   
-         When('submits the registration form', {timeout:10000},async function () {
-           await affiliatePage.submitRegistration();
+         When('agrees to the Privacy Policy checkbox', async function () {
+           //   await affiliatePage.agreePrivacyPolicy();
          });
 
- 
+          When('submits the registration form  successfully',{timeout:10000}, async function () {
+            await affiliatePage.submitRegistration();
+         });
 
-         Then('the user should see {string}', async function (message) {
+           Then('the user should see {string} message', async function (message) {
            await affiliatePage.verifySuccessMessage(message);
          });
 
-
-
-         When('the user clicks on continue on register', async function () {
-         await affiliatePage.clickContinueOnRegister();
+             When('the user clicks on continue on register page', async function () {
+           await affiliatePage.clickContinueOnRegister();
          });
-
   
 
          When('the user clicks on register your affiliate information', async function () {
            await affiliatePage.clickRegisterAffiliate();
          });
-
- 
 
          When('enters payee name {string}', async function (name) {
           await affiliatePage.enterPayeeName(name);
