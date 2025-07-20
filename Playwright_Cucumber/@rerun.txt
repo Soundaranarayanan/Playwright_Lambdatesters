@@ -1,5 +1,4 @@
+src\test\features\Affiliate.feature:24:25
 src\test\features\Login_new.feature:9:24:25:26:27:30
-src\test\features\addtocart.feature:8:16
 src\test\features\login.feature:7:23:24:25:26:31
-src\test\features\productComare.feature:8:14:22
 src\test\features\useraccount.feature:11:18:25
