@@ -12,17 +12,20 @@ import { Page } from '@playwright/test';
 import { Logger } from 'winston'; // or whatever logger you're using
 import HeaderPage from '../pages/HeaderPage';
 import RegisterPage from '../pages/registerPage';
+import ProductComaprePage from '../pages/productComparePage';
 
 interface PageFixture {
     page: Page | undefined;
     logger: Logger | undefined;
     headerPage: HeaderPage | undefined;  // Add this
     registerPage: RegisterPage | undefined;  // Add this
+    productComparePage: ProductComaprePage | undefined;
 }
 
 export const pageFixture: PageFixture = {
     page: undefined,
     logger: undefined,
     headerPage: undefined,
-    registerPage: undefined
+    registerPage: undefined,
+    productComparePage: undefined
 };
