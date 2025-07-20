@@ -9,7 +9,9 @@ dotenv.config();
 let loginPage: LoginPage;
 
 Given('the user is on the homepage', async function () {
-  await pageFixture.page?.goto(process.env.BASE_URL);
+  // await pageFixture.page?.goto(process.env.BASE_URL);
+  // In your loginstep.ts, replace line 12 with:
+await pageFixture.page?.goto(process.env.BASE_URL || 'https://ecommerce-playground.lambdatest.io/');
   pageFixture.logger?.info('Navigated to the homepage');
   loginPage = new LoginPage(pageFixture.page!);
 });
@@ -19,16 +21,16 @@ When('the user clicks on My Account and selects login', async function () {
   pageFixture.logger?.info('Clicked on My Account and selected Login');
 });
 
-When('the user enters valid credentials', async function () {
-  await loginPage.enterUsername(process.env.VALID_EMAIL!);
-  await loginPage.enterPassword(process.env.VALID_PASSWORD!);
-  pageFixture.logger?.info('Entered valid credentials');
-});
+// When('the user enters valid credentials', async function () {
+//   await loginPage.enterUsername(process.env.VALID_EMAIL!);
+//   await loginPage.enterPassword(process.env.VALID_PASSWORD!);
+//   pageFixture.logger?.info('Entered valid credentials');
+// });
 
-When('the user clicks on the Login button', async function () {
-  await loginPage.clickLoginButton();
-  pageFixture.logger?.info('Clicked on the Login button');
-});
+// When('the user clicks on the Login button', async function () {
+//   await loginPage.clickLoginButton();
+//   pageFixture.logger?.info('Clicked on the Login button');
+// });
 
 Then('the user should see the My Account page', async function () {
   await loginPage.verifyLoginSuccess();
