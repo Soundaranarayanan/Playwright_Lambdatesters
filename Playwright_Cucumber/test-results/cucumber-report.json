@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "add-a-comment-to-the-lambdatesters-blog;adding-a-valid-comment-to-the-blog",
+        "id": "soundar_21jul2025_lambdatesters_estimateshippingstatus;estimate-the-shipping-and-taxes",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Adding a valid comment to the blog",
+        "line": 10,
+        "name": "Estimate the shipping and taxes",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 694472200
+              "duration": 561343600
             }
           },
           {
@@ -23,108 +23,141 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3194363600
+              "duration": 5496541500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "the user clicks on the Blog button",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:15"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 733290100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user selects any article from the blog",
-            "match": {
-              "location": "src\\test\\steps\\blogStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1560728100
+              "duration": 1242847000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the user is navigated to the selected blog page",
+            "line": 6,
+            "name": "the user enters valid credentials",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:24"
+              "location": "src\\test\\steps\\loginstep.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1097284500
+              "duration": 2048692999
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "name",
-                      "email",
-                      "comment"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Jeev",
-                      "jeev@example.com",
-                      "This blog was very informative and well written. Keep it up!"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user enters the following comment details:",
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks on the Login button",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:29"
+              "location": "src\\test\\steps\\loginstep.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 258994999
+              "duration": 1070684699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks on the Shopping Cart",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32019346300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user clicks the Edit Cart button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258776900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user clicks the Estimate Shipping and Taxes button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1558011999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the required shipping details",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98897499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "the user clicks on the Post Comment button",
+            "name": "the user clicks the Get Quotes button",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:60"
+              "location": "src\\test\\steps\\ESPStep.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 280552999
+              "duration": 79810899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user selects Flat Shipping Rate and clicks Apply Shipping button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548935000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "the user should see the message \"Thank you for your comment. It has been submitted to the webmaster for approval.\"",
+            "line": 17,
+            "name": "the user should see message \"Success: Your shipping estimate has been applied!\"",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:64"
+              "location": "src\\test\\steps\\ESPStep.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 401213500
+              "duration": 1146759000
             }
           },
           {
@@ -132,24 +165,186 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 157408100
+              "duration": 49219999
             }
           }
         ],
         "tags": [
           {
-            "name": "@blog_filling",
-            "line": 6
+            "name": "@EstimateShipping",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_21jul2025_lambdatesters_estimateshippingstatus;estimate-shipping-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Estimate shipping with empty fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 713565300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5623393799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1203058600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2013516599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 975583199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on the Shopping Cart",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32036576300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user clicks the Edit Cart button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1217249499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the user clicks the Estimate Shipping and Taxes button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472255400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user leaves the shipping details empty",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113691500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user clicks the Get Quotes button",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94283699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the user should see error message \"Please select a region / state!\"",
+            "match": {
+              "location": "src\\test\\steps\\ESPStep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386131299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48114100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EstimateShippingInvalid",
+            "line": 18
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "add-a-comment-to-the-lambdatesters-blog",
+    "id": "soundar_21jul2025_lambdatesters_estimateshippingstatus",
     "line": 1,
     "keyword": "Feature",
-    "name": "Add a comment to the LambdaTesters Blog",
+    "name": "Soundar_21JUL2025_LambdaTesters_EstimateShippingStatus",
     "tags": [],
-    "uri": "src\\test\\features\\Blog.feature"
+    "uri": "src\\test\\features\\ESP.feature"
   }
 ]
