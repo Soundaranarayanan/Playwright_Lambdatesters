@@ -3,7 +3,7 @@ Feature: Add a comment to the LambdaTesters Blog
   Background:
     Given the user is on the homepage
 
-  @valid_blog_filling_all_required_details
+  @blog_filling
   Scenario: Adding a valid comment to the blog
     When the user clicks on the Blog button
     Then the user selects any article from the blog
