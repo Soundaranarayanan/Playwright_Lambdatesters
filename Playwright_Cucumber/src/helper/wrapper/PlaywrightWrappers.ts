@@ -77,6 +77,14 @@ async click(locator: string | Locator) {
         }
     }
   }
+
+  async select(locator: Locator | string, value: string): Promise<void> {
+        if (typeof locator === 'string') {
+            await this.page.locator(locator).selectOption({ label: value });
+        } else {
+            await locator.selectOption({ label: value });
+        }
+  }
   
   
     
