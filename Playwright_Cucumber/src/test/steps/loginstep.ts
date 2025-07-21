@@ -9,7 +9,7 @@ dotenv.config();
 let loginPage: LoginPage;
 
 Given('the user is on the homepage', async function () {
-await pageFixture.page?.goto(process.env.BASE_URL || 'https://ecommerce-playground.lambdatest.io/');
+await pageFixture.page?.goto(process.env.BASE_URL || 'https://ecommerce-playground.lambdatest.io/' || 'https://ecommerce-playground.lambdatest.io/');
   pageFixture.logger?.info('Navigated to the homepage');
   loginPage = new LoginPage(pageFixture.page!);
 });
