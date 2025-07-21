@@ -1,4 +1,4 @@
-Feature: Login with valid and invalid credentials with logout
+Feature: Jeevika_18JUL2025_LambdaTesters_Login
 
   Background:
     Given the user is on the homepage

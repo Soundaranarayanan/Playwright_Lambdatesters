@@ -1,0 +1,6 @@
+INFO 2025-07-20 22:23:13: Navigated to the homepage
+INFO 2025-07-20 22:23:14: Clicked on My Account
+INFO 2025-07-20 22:23:17: Clicked on Register
+INFO 2025-07-20 22:23:18: Entered registration details: priya, ram, priya.ram+1753030397271@example.com, 1234567891, 1234, 1234
+INFO 2025-07-20 22:23:19: Agreed to Privacy Policy
+INFO 2025-07-20 22:23:21: Verified that the user sees: Your Account Has Been Created!
