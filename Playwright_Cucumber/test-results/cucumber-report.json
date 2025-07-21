@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "jeevika_21jul2025_lambdatesters_megamenu;user-chooses-apple-from-main-menu",
-        "keyword": "Scenario",
-        "line": 7,
-        "name": "User chooses Apple from main menu",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Verify search functionality with different input types",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 372927200
+              "duration": 1939161300
             }
           },
           {
@@ -27,46 +27,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3556044899
+              "duration": 3407911300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "user clicks on the main menu",
+            "name": "the user searches with \"macbook\"",
             "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:8"
+              "location": "src\\test\\steps\\searchStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 525855199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "clicks on apple option",
-            "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1040829399
+              "duration": 1561543900
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "the user should see products from apple",
+            "line": 9,
+            "name": "the \"MacBook\" should be displayed",
             "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:17"
+              "location": "src\\test\\steps\\searchStep.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1918079799
+              "duration": 918971700
             }
           },
           {
@@ -74,24 +61,379 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38264599
+              "duration": 168081200
             }
           }
         ],
         "tags": [
           {
-            "name": "@mega_menu",
+            "name": "@SearchTests",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Verify search functionality with different input types",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1521919099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4381096300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user searches with \"iph\"",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760565800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"iPhone\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1957793300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 557992800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTests",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Verify search functionality with different input types",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1010942699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3910399099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user searches with \"IMAC\"",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 948091599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"iMac\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 913847400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 63920799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTests",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify search functionality with different input types",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 929923599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3951700799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user searches with \"iphone\"",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922754499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"iphone\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1130677899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 80664499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTests",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify search functionality with different input types",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 951211900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4498436800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user searches with \"\"",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1323560700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"HTC Touch HD\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1961843599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 82783799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTests",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_12apr2025_lambdatesters_search;verify-search-functionality-with-different-input-types",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify search functionality with different input types",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1034339199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3798978900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user searches with \"@@@\"",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 975372300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"There is no product that matches the search criteria\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1985258799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118425300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTests",
             "line": 6
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "jeevika_21jul2025_lambdatesters_megamenu",
+    "id": "jeevika_12apr2025_lambdatesters_search",
     "line": 1,
     "keyword": "Feature",
-    "name": "Jeevika_21JUL2025_LambdaTesters_MegaMenu",
+    "name": "Jeevika_12APR2025_LambdaTesters_Search",
     "tags": [],
-    "uri": "src\\test\\features\\MegaMenu.feature"
+    "uri": "src\\test\\features\\Search.feature"
   }
 ]
