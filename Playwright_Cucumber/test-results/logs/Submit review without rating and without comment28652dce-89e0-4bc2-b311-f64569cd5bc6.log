@@ -1,7 +1,0 @@
-INFO 2025-07-20 23:22:34: Navigated to the homepage
-INFO 2025-07-20 23:22:37: Initialized ProductReview page object
-INFO 2025-07-20 23:22:39: Entered reviewer name: soundar
-INFO 2025-07-20 23:22:39: Left the Review field blank
-INFO 2025-07-20 23:22:39: No rating selected
-INFO 2025-07-20 23:22:39: Clicked on Continue to submit review
-INFO 2025-07-20 23:22:40: Captured error message: "Warning: Please select a review rating!"
