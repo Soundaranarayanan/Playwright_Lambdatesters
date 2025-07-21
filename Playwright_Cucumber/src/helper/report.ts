@@ -1,3 +1,4 @@
+
 const report = require("multiple-cucumber-html-reporter");
 const dateFormatOptions = {
   year: 'numeric' as const,
@@ -12,7 +13,7 @@ report.generate({
   jsonDir: "test-results",
   reportPath: "multipleReport",
   reportName:"Playwright BDD Report",
-  pageTitle:"Ecommerce Playground Lambdatest",
+  pageTitle:"Ecommerce LambdaTest Test Report",
   metadata: {
     browser: {
       name: "chrome",
@@ -27,7 +28,7 @@ report.generate({
   customData: {
     title: "Test info",
     data: [
-      { label: "Project", value: "Ecommerce Playground Lambdatest Project" },
+      { label: "Project", value: "Ecommerce LambdaTest Project" },
       { label: "Release", value: "1.2.3" },
       { label: "Cycle", value: "smoke-1" },
       { label: "Execution Start Time", value: new Date().toLocaleString('en-US', dateFormatOptions) },
