@@ -9,10 +9,13 @@
 // };
 
 import { Page } from '@playwright/test';
-import { Logger } from 'winston'; // or whatever logger you're using
+import { Logger } from 'winston'; 
 import HeaderPage from '../pages/HeaderPage';
 import RegisterPage from '../pages/registerPage';
 import ProductComaprePage from '../pages/productComparePage';
+import AddOnDesignPage from '../pages/addonDesignPage';
+import HomePage from '../pages/homePage';
+import CheckoutPage from '../pages/checkOutPage';
 
 interface PageFixture {
     page: Page | undefined;
@@ -20,6 +23,9 @@ interface PageFixture {
     headerPage: HeaderPage | undefined;  // Add this
     registerPage: RegisterPage | undefined;  // Add this
     productComparePage: ProductComaprePage | undefined;
+    addondesignPage: AddOnDesignPage | undefined;
+    homePage: HomePage | undefined;
+    checkoutPage: CheckoutPage | undefined;
 }
 
 export const pageFixture: PageFixture = {
@@ -27,5 +33,8 @@ export const pageFixture: PageFixture = {
     logger: undefined,
     headerPage: undefined,
     registerPage: undefined,
-    productComparePage: undefined
+    productComparePage: undefined,
+    addondesignPage: undefined,
+    homePage: undefined,
+    checkoutPage: undefined
 };
