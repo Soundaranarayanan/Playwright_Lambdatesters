@@ -18,6 +18,7 @@ import ProductComaprePage from '../pages/productComparePage';
 import AddOnDesignPage from '../pages/addonDesignPage';
 import HomePage from '../pages/homePage';
 import CheckoutPage from '../pages/checkOutPage';
+import UserAccountPage from '../pages/useraccountPage';
 let browser: Browser;
 let context: BrowserContext;
 
@@ -46,7 +47,7 @@ Before(   async function ({pickle}) {
   pageFixture.addondesignPage=new AddOnDesignPage(page);
   pageFixture.homePage=new HomePage(page);
   pageFixture.checkoutPage=new CheckoutPage(page);
-  
+  pageFixture.useraccountPage = new UserAccountPage(page);
 });
 
 After(async function ({pickle,result}) {
@@ -66,6 +67,7 @@ After(async function ({pickle,result}) {
     pageFixture.registerPage = undefined;
     pageFixture.productComparePage =undefined;
     pageFixture.addondesignPage = undefined;
+     pageFixture.useraccountPage = undefined;
   });
 
 AfterAll(async function () {
