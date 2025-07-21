@@ -28,6 +28,8 @@
     "winston": "^3.17.0"
   },
   "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
     "multiple-cucumber-html-reporter": "^3.9.3"
   }
 }

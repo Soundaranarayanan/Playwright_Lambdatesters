@@ -1,0 +1,7 @@
+ScenarioType,Input,Expected
+valid_search_correctinput,macbook,MacBook
+valid_search_partial_match,iph,iPhone
+valid_search_case_insensitive,IMAC,iMac
+valid_search_spaces," iphone ",iphone
+valid_search_empty_input,,HTC Touch HD
+invalid_search_incorrectinput,@@@,There is no product that matches the search criteria.

@@ -4,6 +4,7 @@ const options: LaunchOptions = {
     headless: true
 }
 
+
 export const invokeBrowser = () => {
     const browserType = process.env.BROWSER || 'chrome';
 

@@ -1,2 +1,0 @@
-src\test\features\Affiliate.feature:26
-src\test\features\MyOrder.feature:70

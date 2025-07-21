@@ -78,6 +78,58 @@ async click(locator: string | Locator) {
     }
   }
 
+      async isVisible(locator: string | Locator): Promise<boolean> {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        try {
+            await element.waitFor({ state: "visible", timeout: 5000 });
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    async selectOption(locator: string | Locator, options: { label?: string, value?: string, index?: number }) {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        await element.waitFor({ state: "visible" });
+        await element.selectOption(options);
+    }
+
+    async hover(locator: string | Locator) {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        await element.waitFor({ state: "visible" });
+        await element.hover();
+    }
+
+    async scrollIntoViewIfNeeded(locator: string | Locator) {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        await element.scrollIntoViewIfNeeded();
+    }
+
+    async count(locator: string | Locator): Promise<number> {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        return await element.count();
+    }
+
+    async all(locator: string | Locator): Promise<Locator[]> {
+        const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+        return await element.all();
+    }
+
+
+
+        async textContent(locator: string | Locator): Promise<string> {
+        try {
+            const element = typeof locator === "string" ? this.page.locator(locator) : locator;
+            await element.waitFor({ state: "attached", timeout: 10000 });
+            const text = await element.textContent();
+            return text?.trim() || "";
+        } catch (error) {
+            console.error(`Error getting text content for locator: ${locator}`, error);
+            return "";
+        }
+    }
+
+
   async select(locator: Locator | string, value: string): Promise<void> {
         if (typeof locator === 'string') {
             await this.page.locator(locator).selectOption({ label: value });
@@ -89,3 +141,4 @@ async click(locator: string | Locator) {
   
     
 }
+
