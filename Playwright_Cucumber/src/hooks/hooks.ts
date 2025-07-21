@@ -18,6 +18,7 @@ import ProductComaprePage from '../pages/productComparePage';
 import AddOnDesignPage from '../pages/addonDesignPage';
 import HomePage from '../pages/homePage';
 import CheckoutPage from '../pages/checkOutPage';
+import MyOrderPage from '../pages/myOrderPage';
 let browser: Browser;
 let context: BrowserContext;
 
@@ -46,7 +47,8 @@ Before(   async function ({pickle}) {
   pageFixture.addondesignPage=new AddOnDesignPage(page);
   pageFixture.homePage=new HomePage(page);
   pageFixture.checkoutPage=new CheckoutPage(page);
-  
+  pageFixture.myorderPage=new MyOrderPage(page);
+
 });
 
 After(async function ({pickle,result}) {
