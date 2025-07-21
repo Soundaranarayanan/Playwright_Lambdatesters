@@ -15,6 +15,9 @@ import { invokeBrowser } from '../helper/browsers/browserManager';
 import HeaderPage from '../pages/HeaderPage';
 import RegisterPage from '../pages/registerPage';
 import ProductComaprePage from '../pages/productComparePage';
+import AddOnDesignPage from '../pages/addonDesignPage';
+import HomePage from '../pages/homePage';
+import CheckoutPage from '../pages/checkOutPage';
 let browser: Browser;
 let context: BrowserContext;
 
@@ -40,6 +43,9 @@ Before(   async function ({pickle}) {
   pageFixture.headerPage = new HeaderPage(page);
   pageFixture.registerPage = new RegisterPage(page);
   pageFixture.productComparePage=new ProductComaprePage(page);
+  pageFixture.addondesignPage=new AddOnDesignPage(page);
+  pageFixture.homePage=new HomePage(page);
+  pageFixture.checkoutPage=new CheckoutPage(page);
   
 });
 
@@ -59,6 +65,7 @@ After(async function ({pickle,result}) {
     pageFixture.headerPage = undefined;
     pageFixture.registerPage = undefined;
     pageFixture.productComparePage =undefined;
+    pageFixture.addondesignPage = undefined;
   });
 
 AfterAll(async function () {

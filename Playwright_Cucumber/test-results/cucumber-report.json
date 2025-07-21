@@ -4,82 +4,82 @@
     "elements": [
       {
         "description": "",
-        "id": "jeevika_01may2025_lambdatesters_addons;user-clicks-on-camera-text-to-navigate-to-camera-product-page",
+        "id": "saranya_26may2025_lambdatesters_addonsdesign;user-clicks-on-alert-designs-of-addons",
         "keyword": "Scenario",
-        "line": 13,
-        "name": "user clicks on camera text to navigate to camera product page",
+        "line": 8,
+        "name": "user clicks on alert designs of addOns",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 634536600
+              "duration": 380231600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3317721199
+              "duration": 8075124699
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
+            "line": 9,
             "name": "the user clicks on addons",
             "match": {
               "location": "src\\test\\steps\\addonsStep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 531136000
+              "duration": 335330799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
+            "line": 10,
             "name": "clicks on designs option",
             "match": {
               "location": "src\\test\\steps\\addonsStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1848613700
+              "duration": 3063088899
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "clicks on camera text",
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user romoves one of the alert",
             "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:26"
+              "location": "src\\test\\steps\\addOnDesignstep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2445471300
+              "duration": 6243771700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
-            "name": "the user should be navigated to camera page",
+            "line": 12,
+            "name": "the alert count should be reduced",
             "match": {
-              "location": "src\\test\\steps\\addonsStep.ts:32"
+              "location": "src\\test\\steps\\addOnDesignstep.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 945861899
+              "duration": 52633900
             }
           },
           {
@@ -87,24 +87,33 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 187968500
+              "duration": 30323700
             }
           }
         ],
         "tags": [
           {
-            "name": "@addOns_camera_text_click",
-            "line": 12
+            "name": "@AddonDesigns",
+            "line": 1
+          },
+          {
+            "name": "@addOns_Design_Alerts",
+            "line": 7
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "jeevika_01may2025_lambdatesters_addons",
-    "line": 1,
+    "id": "saranya_26may2025_lambdatesters_addonsdesign",
+    "line": 2,
     "keyword": "Feature",
-    "name": "Jeevika_01MAY2025_LambdaTesters_AddOns",
-    "tags": [],
-    "uri": "src\\test\\features\\Addons.feature"
+    "name": "Saranya_26MAY2025_LambdaTesters_AddOnsDesign",
+    "tags": [
+      {
+        "name": "@AddonDesigns",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\addOnDesign.feature"
   }
 ]
