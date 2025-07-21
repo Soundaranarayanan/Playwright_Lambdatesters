@@ -1,4 +1,4 @@
-Feature: Add a comment to the LambdaTesters Blog
+Feature: Soundar_19JUL2025_LambdaTesters_Blog
 
   Background:
     Given the user is on the homepage

@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "add-a-comment-to-the-lambdatesters-blog;adding-a-valid-comment-to-the-blog",
+        "id": "jeevika_21jul2025_lambdatesters_megamenu;user-chooses-apple-from-main-menu",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Adding a valid comment to the blog",
+        "name": "User chooses Apple from main menu",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1010553499
+              "duration": 256103399
             }
           },
           {
@@ -27,104 +27,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3352416199
+              "duration": 3747687500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "the user clicks on the Blog button",
+            "name": "user clicks on the main menu",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:15"
+              "location": "src\\test\\steps\\megamenuStep.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 850211900
+              "duration": 367671299
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 9,
-            "name": "the user selects any article from the blog",
+            "name": "clicks on apple option",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:20"
+              "location": "src\\test\\steps\\megamenuStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2770623200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user is navigated to the selected blog page",
-            "match": {
-              "location": "src\\test\\steps\\blogStep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1391861799
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "name",
-                      "email",
-                      "comment"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Jeev",
-                      "jeev@example.com",
-                      "This blog was very informative and well written. Keep it up!"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user enters the following comment details:",
-            "match": {
-              "location": "src\\test\\steps\\blogStep.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 211638600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "the user clicks on the Post Comment button",
-            "match": {
-              "location": "src\\test\\steps\\blogStep.ts:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 342971199
+              "duration": 858191699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "the user should see the message \"Thank you for your comment. It has been submitted to the webmaster for approval.\"",
+            "line": 10,
+            "name": "the user should see products from apple",
             "match": {
-              "location": "src\\test\\steps\\blogStep.ts:64"
+              "location": "src\\test\\steps\\megamenuStep.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 400630000
+              "duration": 2436616199
             }
           },
           {
@@ -132,24 +74,24 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 182354900
+              "duration": 36987699
             }
           }
         ],
         "tags": [
           {
-            "name": "@blog_filling",
+            "name": "@mega_menu",
             "line": 6
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "add-a-comment-to-the-lambdatesters-blog",
+    "id": "jeevika_21jul2025_lambdatesters_megamenu",
     "line": 1,
     "keyword": "Feature",
-    "name": "Add a comment to the LambdaTesters Blog",
+    "name": "Jeevika_21JUL2025_LambdaTesters_MegaMenu",
     "tags": [],
-    "uri": "src\\test\\features\\Blog.feature"
+    "uri": "src\\test\\features\\MegaMenu.feature"
   }
 ]
