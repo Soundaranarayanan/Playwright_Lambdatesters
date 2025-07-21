@@ -1,4 +1,4 @@
-Feature: Jeevika_15APR2025_LambdaTesters_AffiliateAccount
+Feature: Jeevika_20JUL2025_LambdaTesters_AffiliateAccount
 
 @affiliateTest
 Scenario Outline: Register a user and register as affiliate with valid and invalid inputs

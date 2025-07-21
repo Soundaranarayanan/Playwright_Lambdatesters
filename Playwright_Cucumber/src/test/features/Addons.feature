@@ -1,4 +1,4 @@
-Feature: Jeevika_01MAY2025_LambdaTesters_AddOns
+Feature: Jeevika_20JUL2025_LambdaTesters_AddOns
 
  Background:
     Given the user is on the homepage

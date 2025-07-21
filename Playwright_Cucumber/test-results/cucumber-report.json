@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "soundar_21jul2025_lambdatesters_estimateshippingstatus;estimate-the-shipping-and-taxes",
+        "id": "jeevika_20jul2025_lambdatesters_addons;user-clicks-on-designs-of-addons",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Estimate the shipping and taxes",
+        "line": 7,
+        "name": "user clicks on designs of addOns",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 561343600
+              "duration": 662974199
             }
           },
           {
@@ -27,7 +27,1115 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5496541500
+              "duration": 5498591900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on addons",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197867600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks on designs option",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2203821100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user should see the design page",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1438858800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25012300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addOns_Design_option",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_20jul2025_lambdatesters_addons;user-clicks-on-camera-text-to-navigate-to-camera-product-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "user clicks on camera text to navigate to camera product page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 627196899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5499357700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on addons",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185887000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clicks on designs option",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2209767300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "clicks on camera text",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2302427700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be navigated to camera page",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1493105100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28487400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addOns_camera_text_click",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_20jul2025_lambdatesters_addons",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_20JUL2025_LambdaTesters_AddOns",
+    "tags": [],
+    "uri": "src\\test\\features\\Addons.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "jeevika_20jul2025_lambdatesters_affiliateaccount;register-a-user-and-register-as-affiliate-with-valid-and-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Register a user and register as affiliate with valid and invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143773200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4844534899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on My Account and click on register",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3095661100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see the registration page form",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 921734000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters the following \"priya\", \"ram\", \"random\", \"1234567891\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179082400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "agrees to the Privacy Policy checkbox",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1167300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "submits the registration form  successfully",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025413799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see \"Your Account Has Been Created!\" message",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 870210800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on continue on register page",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 620290000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on register your affiliate information",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2045031800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "enters payee name \"jeev\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020165600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicks on checkbox based on \"yes\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65124900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "clicks on register continue button",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 977825499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22168400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@affiliateTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_20jul2025_lambdatesters_affiliateaccount;register-a-user-and-register-as-affiliate-with-valid-and-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Register a user and register as affiliate with valid and invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92755799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4940012299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on My Account and click on register",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3670484499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see the registration page form",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896626400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters the following \"jeev\", \"ram\", \"random\", \"1234567890\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183646500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "agrees to the Privacy Policy checkbox",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1839100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "submits the registration form  successfully",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 964267500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see \"Your Account Has Been Created!\" message",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 932386399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on continue on register page",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644527300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on register your affiliate information",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1437753299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "enters payee name \"\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2971799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicks on checkbox based on \"yes\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 988839800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "clicks on register continue button",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546836900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24268900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@affiliateTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_20jul2025_lambdatesters_affiliateaccount;register-a-user-and-register-as-affiliate-with-valid-and-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Register a user and register as affiliate with valid and invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84816599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7325413999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on My Account and click on register",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4302249600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see the registration page form",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1369086999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters the following \"jeev\", \"ram\", \"random\", \"1234567890\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160208700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "agrees to the Privacy Policy checkbox",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "submits the registration form  successfully",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1059007399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see \"Your Account Has Been Created!\" message",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 889139499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on continue on register page",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555697100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on register your affiliate information",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1389464099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "enters payee name \"jeev\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1413302100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicks on checkbox based on \"no\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "clicks on register continue button",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551326999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42604400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@affiliateTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_20jul2025_lambdatesters_affiliateaccount;register-a-user-and-register-as-affiliate-with-valid-and-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Register a user and register as affiliate with valid and invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87396999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14202380299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on My Account and click on register",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3117800199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see the registration page form",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 855433800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters the following \"jeev\", \"ram\", \"random\", \"1234567890\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132023900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "agrees to the Privacy Policy checkbox",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "submits the registration form  successfully",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1217066999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see \"Your Account Has Been Created!\" message",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1460486799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on continue on register page",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500329200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on register your affiliate information",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1319476199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "enters payee name \"\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicks on checkbox based on \"no\"",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "clicks on register continue button",
+            "match": {
+              "location": "src\\test\\steps\\affiliateStep.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1326814899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32234700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@affiliateTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_20jul2025_lambdatesters_affiliateaccount",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_20JUL2025_LambdaTesters_AffiliateAccount",
+    "tags": [],
+    "uri": "src\\test\\features\\Affiliate.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "jeevika_19jul2025_lambdatesters_blog;adding-a-valid-comment-to-the-blog",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Adding a valid comment to the blog",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96058400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6502336199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on the Blog button",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 698758300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user selects any article from the blog",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3192456799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user is navigated to the selected blog page",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1948071800
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "email",
+                      "comment"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jeev",
+                      "jeev@example.com",
+                      "This blog was very informative and well written. Keep it up!"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enters the following comment details:",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51515899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Post Comment button",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155519099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should see the message \"Thank you for your comment. It has been submitted to the webmaster for approval.\"",
+            "match": {
+              "location": "src\\test\\steps\\blogStep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 893427600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13549600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@blog_filling",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_19jul2025_lambdatesters_blog",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_19JUL2025_LambdaTesters_Blog",
+    "tags": [],
+    "uri": "src\\test\\features\\Blog.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "soundar_21jul2025_lambdatesters_estimateshippingstatus;estimate-the-shipping-and-taxes",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Estimate the shipping and taxes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93841399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5203004699
             }
           },
           {
@@ -40,7 +1148,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1242847000
+              "duration": 1255392899
             }
           },
           {
@@ -53,7 +1161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2048692999
+              "duration": 1934687799
             }
           },
           {
@@ -66,7 +1174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1070684699
+              "duration": 999371599
             }
           },
           {
@@ -79,7 +1187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32019346300
+              "duration": 31446015400
             }
           },
           {
@@ -92,7 +1200,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1258776900
+              "duration": 1160209400
             }
           },
           {
@@ -105,7 +1213,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1558011999
+              "duration": 1482988799
             }
           },
           {
@@ -118,7 +1226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 98897499
+              "duration": 852009699
             }
           },
           {
@@ -131,7 +1239,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79810899
+              "duration": 67612699
             }
           },
           {
@@ -144,7 +1252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 548935000
+              "duration": 512913199
             }
           },
           {
@@ -157,7 +1265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1146759000
+              "duration": 1571044699
             }
           },
           {
@@ -165,7 +1273,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 49219999
+              "duration": 15307799
             }
           }
         ],
@@ -189,7 +1297,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 713565300
+              "duration": 92172600
             }
           },
           {
@@ -202,7 +1310,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5623393799
+              "duration": 4955182199
             }
           },
           {
@@ -215,7 +1323,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1203058600
+              "duration": 1424430099
             }
           },
           {
@@ -228,7 +1336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2013516599
+              "duration": 1439570200
             }
           },
           {
@@ -241,7 +1349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 975583199
+              "duration": 912696800
             }
           },
           {
@@ -254,7 +1362,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32036576300
+              "duration": 31986044299
             }
           },
           {
@@ -267,7 +1375,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1217249499
+              "duration": 1123193499
             }
           },
           {
@@ -280,7 +1388,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1472255400
+              "duration": 1491051500
             }
           },
           {
@@ -293,7 +1401,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 113691500
+              "duration": 229598100
             }
           },
           {
@@ -306,7 +1414,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94283699
+              "duration": 75348099
             }
           },
           {
@@ -319,7 +1427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 386131299
+              "duration": 347488400
             }
           },
           {
@@ -327,7 +1435,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 48114100
+              "duration": 21656999
             }
           }
         ],
@@ -346,5 +1454,3470 @@
     "name": "Soundar_21JUL2025_LambdaTesters_EstimateShippingStatus",
     "tags": [],
     "uri": "src\\test\\features\\ESP.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_forgotpassword;user-requests-a-password-reset-link-with-various-email-inputs",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "User requests a password reset link with various email inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112919399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5156816900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1213481199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Forgotten Password link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2397918600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters \"2k21eee65@kiot.ac.in\" to receive reset link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1389055099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks continue",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1370703599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should a message \"An email with a confirmation link has been sent your email address.\"",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50463600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12378499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPasswordOutline",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_forgotpassword;user-requests-a-password-reset-link-with-various-email-inputs",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "User requests a password reset link with various email inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111198899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4930937500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041395099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Forgotten Password link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2920224699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters \"2k21eee89@kiot.ac.in\" to receive reset link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395061800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks continue",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597272299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should a message \"Warning: The E-Mail Address was not found in our records, please try again!\"",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73642000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11638300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPasswordOutline",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_forgotpassword;user-requests-a-password-reset-link-with-various-email-inputs",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "User requests a password reset link with various email inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88935200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4902556399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1492853499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Forgotten Password link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2381742500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters \"\" to receive reset link",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883844600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks continue",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575125499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should a message \"Warning: The E-Mail Address was not found in our records, please try again!\"",
+            "match": {
+              "location": "src\\test\\steps\\ForgotPasswordstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62148000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12593399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPasswordOutline",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "soundar_10jul2025_lambdatesters_forgotpassword",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SOUNDAR_10JUL2025_LambdaTesters_ForgotPassword",
+    "tags": [],
+    "uri": "src\\test\\features\\ForgotPassword.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "jeevika_21jul2025_lambdatesters_megamenu;user-chooses-apple-from-main-menu",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User chooses Apple from main menu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96067499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4870577899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user clicks on the main menu",
+            "match": {
+              "location": "src\\test\\steps\\megamenuStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150652399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks on apple option",
+            "match": {
+              "location": "src\\test\\steps\\megamenuStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 893386399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user should see products from apple",
+            "match": {
+              "location": "src\\test\\steps\\megamenuStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1375142900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19430499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mega_menu",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_21jul2025_lambdatesters_megamenu",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_21JUL2025_LambdaTesters_MegaMenu",
+    "tags": [],
+    "uri": "src\\test\\features\\MegaMenu.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_productreview;submit-a-valid-product-review-with-rating-and-comment",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Submit a valid product review with rating and comment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83551600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4949887099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1371485400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user selects the iPod Nano product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2419497700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user is on the product review section",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1332499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters \"soundar\" in the Name field",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1967945700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user writes \"Excellent product with great features\" in the Review field",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27699500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user selects a 5-star rating",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62006900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "user clicks on the Continue button to submit the review",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49305400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "success message \"Thank you for your review. It has been submitted to the webmaster for approval.\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355055800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13335200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validReview",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_productreview;submit-review-without-rating-and-without-comment",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Submit review without rating and without comment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78649799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4913061400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1660538000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user selects the iPod Nano product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969560300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user is on the product review section",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14680699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user enters \"soundar\" in the Name field",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 874204899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user leaves the Review field blank",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20680600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user does not select any rating",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user clicks on the Continue button to submit the review",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75284000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "error message \"Please select a review rating\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374119799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16055400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@noRatingNoComment",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_productreview;submit-review-with-rating-but-without-comment",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Submit review with rating but without comment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120992100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5049250299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1452260699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user selects the iPod Nano product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2678393699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user is on the product review section",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "user enters \"soundar\" in the Name field",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1406865900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "user leaves the Review field blank",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19255499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "user selects a 4-star rating",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81749899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user clicks on the Continue button to submit the review",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71561400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "error message \"Warning: Review Text must be between 25 and 1000 characters!\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\productreviewstep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 404707699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18651099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@withRatingWithComment",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "soundar_11jul2025_lambdatesters_productreview",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Soundar_11JUL2025_LambdaTesters_ProductReview",
+    "tags": [],
+    "uri": "src\\test\\features\\ProductReview.feature"
+  },
+  {
+    "description": "  I want to register for the ecommerce LambdaTest account",
+    "elements": [
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-valid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Register with valid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87931900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4753708299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1043885699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1901207499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"priya\", \"ram\", \"\", \"1234567891\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1600530999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "agrees to the Privacy Policy",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69931699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 999019300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should see \"Your Account Has Been Created!\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 956922499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17169099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@ValidRegistrationInputs",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Register with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94517300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5130595499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1481885199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2379890299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters invalid \"\", \"ram\", \"priya123@gmail.com\", \"1234567891\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086892200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "agrees to the Privacy Policy",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57075899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658016299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user should see \"First Name must be between 1 and 32 characters!\" for \"empty first name\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89712999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12265400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@InValidRegistrationInputs",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Register with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 95591599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5087613400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1194868300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2879281499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters invalid \"priya\", \"ram\", \"oign@gma.com\", \"1234567891\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1063558400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "agrees to the Privacy Policy",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59259499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587472600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user should see \"Warning: E-Mail Address is already registered!\" for \"existing email\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62156300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19663499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@InValidRegistrationInputs",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Register with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 107068300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4977762900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 982653400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2882657199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters invalid \"priya\", \"ram\", \"priya123@gmail.com\", \"1234567891\", \"\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1010679000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "agrees to the Privacy Policy",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71112099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543735199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user should see \"Password must be between 4 and 20 characters!\" for \"empty password\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65945799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13003700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@InValidRegistrationInputs",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Register with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112573200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5105817399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029394799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2921540699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters invalid \"priya\", \"ram\", \"priya123@gmail.com\", \"1234567891\", \"1234\" and \"4321\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1040220999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "agrees to the Privacy Policy",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91108800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488337900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user should see \"Password confirmation does not match password!\" for \"password mismatch\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103104800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13112400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@InValidRegistrationInputs",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_10jul2025_lambdatesters_user_registration_functionality;register-with-+valid-inputs--with-out-checking-privacy-policy",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "Register with +valid inputs  with out checking privacy policy",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86598499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5712276299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on My Account.",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266514800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2384030499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the user enters \"priya\", \"ram\", \"priya123@gmail.com\", \"1234567891\", \"1234\" and \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1233518899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "submits the registration form",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 607269599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the user should see \"Warning: You must agree to the Privacy Policy!\" for \"Not checking privacy policy\"",
+            "match": {
+              "location": "src\\test\\steps\\registrationstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77422099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14108300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@RegistrationWithoutAcceptingPrivacyPolicy",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "saranya_10jul2025_lambdatesters_user_registration_functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Saranya_10JUL2025_LambdaTesters_User_Registration_Functionality",
+    "tags": [
+      {
+        "name": "@registration",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\Registration.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "saranya_26may2025_lambdatesters_addonsdesign;user-clicks-on-alert-designs-of-addons",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "user clicks on alert designs of addOns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84637500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5354913599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks on addons",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127514699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks on designs option",
+            "match": {
+              "location": "src\\test\\steps\\addonsStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1993008999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user romoves one of the alert",
+            "match": {
+              "location": "src\\test\\steps\\addOnDesignstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2679422800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the alert count should be reduced",
+            "match": {
+              "location": "src\\test\\steps\\addOnDesignstep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26574200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12035199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddonDesigns",
+            "line": 1
+          },
+          {
+            "name": "@addOns_Design_Alerts",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "saranya_26may2025_lambdatesters_addonsdesign",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Saranya_26MAY2025_LambdaTesters_AddOnsDesign",
+    "tags": [
+      {
+        "name": "@AddonDesigns",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\addOnDesign.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_addtocart;add-a-single-product-to-the-cart",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add a single product to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106994000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on homepage",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5071176600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1454808199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user selects the iPod Nano product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1997474500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks on the Add to Cart button",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1452747499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should see a confirmation message stating \"Success: You have added iPod Nano to your shopping cart!\"",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 864035000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11520500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addSingleProduct",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_addtocart;remove-a-product-from-the-cart",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Remove a product from the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 80872000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on homepage",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5049888899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1517984700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user selects the iPod Nano product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2124651900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user clicks on the Add to Cart button",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969053599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user views the shopping cart",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1657126500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user removes iPod Nano from the cart",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1430387300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the shopping cart should display \"Your shopping cart is empty!\"",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879552300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10544500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@removeProduct",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_10jul2025_lambdatesters_addtocart;user-tries-to-add-a-product-to-cart-without-selecting-size",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "User tries to add a product to cart without selecting size",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98821499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on homepage",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5116165799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks the Phones & PDAs category",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1656599400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user selects the Apple Cinema 30 product",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2679526099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "user clicks on the Add to Cart button",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1477473700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "user should see a message \"Size required!\"",
+            "match": {
+              "location": "src\\test\\steps\\addtocartstep.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 403149399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17552700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCartWithoutSize",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "soundar_10jul2025_lambdatesters_addtocart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SOUNDAR_10JUL2025_LambdaTesters_AddToCart",
+    "tags": [],
+    "uri": "src\\test\\features\\addtocart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User tries to login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84738000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4891095000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1074069900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2416570600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 938357300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see the My Account page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 925192100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20121799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_valid_input",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91305500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5082316700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1351027800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"atgs2@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1924217400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"12345\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29636200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719857199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check1\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85196399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17470399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144022499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5544304700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1542800900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"atk62@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2453999800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18998399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585947199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check2\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64477299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15356799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98713999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4969150200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1328726900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2462019000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"12345\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20607799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534960000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check3\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84148799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14676600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 95362399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4963160900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 980947799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2450973300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15495900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482055400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check4\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81190700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13238100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials-and-logs-out",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "User tries to login with valid credentials and logs out",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124208199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5022840100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1331138399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1963853300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1082308300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the user logs out",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2152192500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the user should see the Account Logout page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1405388899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19613199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_18jul2025_lambdatesters_login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_18JUL2025_LambdaTesters_Login",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "saranya_15apr2025_lambdatesters_product_compare_functionality;to-perform-compare-without-adding-products-to-list",
+        "keyword": "Scenario Outline",
+        "line": 8,
+        "name": "To perform compare without adding products to list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94022700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4983623600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user searches \" \"",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1126403800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks product compare",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2259871700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see no products to compare error \"You have not chosen any products to compare.\"",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1935208300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14280100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductCompare",
+            "line": 1
+          },
+          {
+            "name": "@CompareWithoutProducts",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_15apr2025_lambdatesters_product_compare_functionality;to-add-the-products-to-comparision-list",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "To Add the products to comparision list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84165800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4847320799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user searches \"mac\"",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129815000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user selects the products to compare",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1746520299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user clicks the comparision button",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1950197400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user clicks the comparision arrow",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 958225999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user should see the comparison page",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1100600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13886300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductCompare",
+            "line": 1
+          },
+          {
+            "name": "@AddProductToComparision",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saranya_15apr2025_lambdatesters_product_compare_functionality;to-add-the-products-to-comparision-list",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "To Add the products to comparision list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86616100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4894441300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the user searches \"mobile\"",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 942967000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user should see the message no products match",
+            "match": {
+              "location": "src\\test\\steps\\productComparestep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2953765699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18008299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductCompare",
+            "line": 1
+          },
+          {
+            "name": "@CompareInvalidProduct",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "saranya_15apr2025_lambdatesters_product_compare_functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Saranya_15APR2025_LambdaTesters_Product_compare_functionality",
+    "tags": [
+      {
+        "name": "@ProductCompare",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\productComare.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_useraccountmanagement;edit-user-account-details",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Edit user account details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101375300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5089324399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1552768199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1934486299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 899713600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user clicks the \"Edit your account information\" page",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1310133899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user updates telephone number",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917307199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clicks on the \"EditInfo\" Continue button",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 946713800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should see \"Success: Your account has been successfully updated.\"",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70008700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12956400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditAccount",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_useraccountmanagement;change-user-password",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Change user password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106014999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4996605799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1575785600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2932494199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888575399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user clicks the Change your password page",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1966110200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user enters current password and new password details",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1434715500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicks on the \"ChangePassword\" Continue button",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1617952500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "user should see \"Success: Your password has been successfully updated.\"",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112826700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19361700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ChangePassword",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "soundar_11jul2025_lambdatesters_useraccountmanagement;change-user-password-without-providing-new-password",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Change user password without providing new password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93495899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4994596100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1118470700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1927174799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020366900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user clicks the Change your password page",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1873251899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "clicks on the \"ChangePassword\" Continue button",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2369349599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user should see the \"Password must be between 4 and 20 characters!\"",
+            "match": {
+              "location": "src\\test\\steps\\useraccountstep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85730899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14568300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ChangePassword_EmptyNewPasswordField",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "soundar_11jul2025_lambdatesters_useraccountmanagement",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Soundar_11JUL2025_LambdaTesters_UserAccountManagement",
+    "tags": [],
+    "uri": "src\\test\\features\\useraccount.feature"
   }
 ]
