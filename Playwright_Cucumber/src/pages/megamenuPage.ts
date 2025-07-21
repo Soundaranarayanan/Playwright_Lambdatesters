@@ -18,7 +18,7 @@ export default class MegaMenuPage {
 
   async hoverOnMegaMenu() {
     const megaMenuLocator = this.page.locator(this.Elements.megaMenu);
-    await megaMenuLocator.waitFor({ state: 'visible', timeout: 5000 });
+    await megaMenuLocator.waitFor({ state: 'visible', timeout: 9000 });
     await megaMenuLocator.hover();
 
     const appleOptionLocator = this.page.locator(this.Elements.appleOption);

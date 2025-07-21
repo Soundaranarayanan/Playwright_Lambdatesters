@@ -1,4 +1,4 @@
-Feature: Soundar_19JUL2025_LambdaTesters_Blog
+Feature: Jeevika_19JUL2025_LambdaTesters_Blog
 
   Background:
     Given the user is on the homepage
