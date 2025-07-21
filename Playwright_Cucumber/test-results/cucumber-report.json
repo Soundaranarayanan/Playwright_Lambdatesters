@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 585817999
+              "duration": 593855700
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1574365599
+              "duration": 3882556300
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 30012165100,
-              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('xpath=(//a[@class=\\'icon-left both nav-link dropdown-toggle\\']/div/span)[2]') to be visible\u001b[22m\n\n    at PlaywrightWrapper.waitAndClick (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\helper\\wrapper\\PlaywrightWrappers.ts:12:15)\n    at PlaywrightWrapper.click (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\helper\\wrapper\\PlaywrightWrappers.ts:25:16)\n    at AddOnsPage.clickAddonsMenu (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\pages\\addonsPage.ts:26:21)\n    at World.<anonymous> (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\test\\steps\\addonsStep.ts:11:28)"
+              "status": "passed",
+              "duration": 408705400
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1966568999
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:20"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1626683499
             }
           },
           {
@@ -75,14 +74,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 177925100
-            },
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOzdPXBTZ8L3YfmZncFUMRVKhahQtsGposwWKBVi5p3BW6FUUZo3TrWiirdzt06FUkV5t4hSRa5wZt4ZlCqmWlPFVBEVShVTxVSYyo8kf8nGBvOR3U3+19Ug6UhHRzLNT/d97vOn7e3tAgAAAPzR/akAAAAAAQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEQQwAAAAEf6nAAAn6S+Upk5W624dfcHWYKVZLU3vbJ+Zrbd6g63n7H9zrd3Yf/p0cbbeXtssnFKvPnUa08Vicba20F597oG8huOOo94rvJqt/mp7oV4tF2eOfIZytb7Q7q0PNrdGT1qabbzqOwBAMgEMwIn6ne7PJ2+93pibnry/ubZQOXvxr19szq892d7efvLjwtbyzWsXi9VO/7iXb67Ol869/+k3d39+uvPA00f3lz99/1yx0TtVBNe6ozf56faNC4cfv3Fne7Th14c/fv23994a7vXRo/vff/7pBxfPVhZOn9enNzqOJw+/vFJ4PcPfAurlqbPvfPDp58t3C9XFOz/9OvoWxx9lsNqZL65//um1dy+eOzs1fNLf7/9GNQ8Af2wCGICTrHc6J/fvmU+a9cn+7beq739+b/R4a2F2tGF6trl4dfjv47sfV+rPNO3w6R98dezeH31zrdoaFE5nujy31Lx83IaZ0myjtTa4c+Ot/cfuff5+tdUv/AamS7W5S4VXttlrloe/BSw/GN258MkPv/a7zVp5ZvfrnZ4plmvNbv/Jw9sfXSi8cYNWuW44GYAQAhiAE6y1W49O3Hih2axO3N3ozN+8P75VrVb2Hpyu1Haq8PHy3Hxvcsxy0Jrbffqx7t9sdk89xFkql0/eOFPrtK8f2vN8Z6PwX2VzpV669sWDnTtnbtxeb1dnjn3idGmu0//pH5cLb9LoL/GgAAAhBDAAx1vtdJ5euvVw+3iDpcns7LcW7+7enJk5GBculWd3bz1dXpwIz9WlhQfnr9764ZfxJN8nv/xw68pbh9/8u95q4c2YrlQPJePdTu+/qIC3eo3SX5cf7919r9Wam3ne86fLC6vfXi28Kf3n/xABAH80AhiAY612O0/fa9ZLp3nuc+dK77rX3Q/PXntl7k6/16wWx608Xaw2VwdHsu7NneN6dIR4Y/O/5/zZtWb9m8cHd682G8UXvmam3vnyvcIbMBx6rshfALIIYACO02t/9bRw79O3p6ZmdpcgXu2fVI6D1d6jF+/xbnd19/XVzqBbOzLQOVNf/OTMwd3zpReX4CkN+odP+y3OTBf+O2y0m19N5G/hSr16qkMrNprXX/czbHTnJoeeASCDAAbgWVvd9vLe7cePHj24u/z5px+8c+7s9Gxj5dnLCfXXTjWOuL6+W6LT08flW7Fc2r99Zq42W3gzNld7h47u+nz9mbbe6vdajclrD82Uq83O+klLRm8Neq367O6Tp0tzrVdbXLrfWro3ef98ZfaU1T9dX+nUjnn8lJ9jtFz32x9+d1C/y9f2XlA+vPzY5nqnWS3v7W7m8GWqjr8O1WgPg1b5uE3jtbYObTvydqc4/pMufrW3jteRt7a8FwCHCWAAnrG10v3u2A1P73/z12cuJzTorx/cuTRbKpzg0eC0J99eaM5XC2/E5sp88/uJHX/yQ6d+uL6HQ6HFs+9c6xQXVweb209+uT1aNvrxg7tffPzuucoxa0b3O9XixWs3l+8/fuvG7V+3t7fWFwoLlfrKoPCSNtbWDs8bn50tF17daT/HRrd2brxc94ts9uZL5979+Iu70ws/PRldcOofpfFlqmb3/vq1zi8/fHZ4Sa7rt5/0m6VCqbm+8/4HPrrzZLs7ivZSs//kly+vFgqXP/vhl/Xhk1/u+I9508LVL3950t39QWC8+zufjFbLvvyPH/cfBoAdAhiAo7ZWOt89b/uRywltHRoSnj55cu56f1A42fra3mrEV5cWXnf8d2tzo7/abpTP7U3zPXP5xpf/+nVwZIXlrV6j/OF3j4aby8Ph1+nR+chzS4v7FzS6d3TN6OHzKx/f3dnj9XZnvGDVTKW52plZ/OJl11JeX717+IGZV5+b/RKfo1jvbW9vP7w1edWmnUsnj/R3i3SzVy9dG1+m6sJn3YXy9Hj5rdZ4kvr9z9+vd8cJPF2sLq0c2lFvb5r78P27K5Nz2ldWDn4lGe5t88JnnaXdc8Bf7vhHb7p6+8bErgur6/3Jb266OFspFa583du5HBcATBDAAByx0W1//6Ln3L9ZmV/bvT1YfxPX0el1dyZdn7lxu1ufKby68Xzes+fefueDT7/ZObC33vvbt2u9znzl6G43uku7a1A9Xa4fvlDTrru9idHtQn9xfn/Nqqv1uYO8qiy1X35p5je3FtfLfo4X2erNz+3+cHBpvrE/Ll2pVndufD+/uPfHLzXbE537dLm9svfuG4P+04NdPv6qtT8bud9aKiw0Z1/9+GfmWu0rB3effrXQnvydYqPXWf9kqXHK+eQARBHAABxRbKzuDQg++fWXhz/e+fKzq5fPHH3W468WdkflZmbOFF7XRmdp3L9v3Vhpz71O/h4MZ46P/euPhsOIj+998eG7b5+dKs4trJ44C/tpv/+iGdprrdb+pOXzs+XJ4cWZvUse/8ed4nO8yLBHl/fadXJe9vTM3l/mcbuzV8CFarN54eC137V2/1dsrLQ3rl+f2LLc3r22c7/TLZ+83PXpjr/YaH02se97zcXV/Tv91uLW0mKlAADPEsAAnGx6pliarc0v9da3njy889nV85Mb7/Z2Imhy9arnmj3piVu9heZoPvDlW2vPLA/9ysbH3uj0f9wvpUffff7B27MTk7eLjfbX18ef6cx7n7UbpdEyTCtLncHxOxysrR4Mac4UX/c4S7OnSuaTVn2aXEXq5T7HC6337r7oKU/X1gZ7t8vNhYnLMt1bGn/Bo1HeZrs9ueW77nh0eK3Vnm3MHZqc/CrHP9tcPH4QeHW4/6bhXwCOJ4ABOJXpUm2pN/jp1kTRrA8Go39KpdOdsXvSpY02e43R1XAv/+OntebrLAO145lVuGYP9Vnh/s3awkEClxsrG6Ph4q21hUK3Xp4qLmzVT7r2cX/tTUz1Pnjr2SNf2/GnSNe6owWovr7+1pHHz1y59eOvT/bO2X2Zz/EihxY1O1ggeuja/tLghY2Ng3XQinONiW/451ZrrbDe6Y4qdHTBpoMt37W7G4XVTrc2Xz96cu4rHH+xsfTJxJdyb2E8LXur2+rWm3Un/wJwPAEMwOlNl5tr/9rPjr3KmK0cjGUOTp7Aevwqx5vd+rXlxxc++WF1ofxGsuWZVbiK1blDY63jQpuwNVhplKfOvf/pyuztwUq99O+Kp9r8J4fmjj9YO+k83elyo3vkJONLi+3m7OFVs36Tz3H12yfbx9lYmsj3w537tNNuDkdhx+dIT8/VJ7bcbXfb7W59vnbsW7308VcWlybC+/FXi93NjU5rfb5ZLQDA8QQwAC9nPzvOVCql8Y1SdW5/bvTTzZOuiXulXn02afqt6offD+t3/cjyzIWNTrXxpq7hejSJJ4+x36mVLv51vFrW1c7zTz8+dK7zg/V+4XVVF5YOlflKb+3E5x6cf7ujeGQK9kt8jhcpFksHd1ZXT7N61nR9/sbBvafffLE/Cjtdb05k/r2bn/bqjeoxe3il4y/OL03+hvD9wlx9tLzW608jAOAPSwAD8Ix+qzI1NTU92+wdV7PFUmn0z5lGfW+hodlG48KL9vlevXZ0BvRmr165ufls/W5trC7UPi5UX/daSHs2jswt3p+LPb6q0fePdu7cmH/B4tOze4sgjw02XnetqdESyiu3Jq5p+7TTWT3tS4vFiW/z5T7Hi0yXZ8+/9DEdHs4+P3Eh58OLZF2Ybz67PNWrH//h3xB+vrtWWXT6LwDPIYABOGKjM3/z3vDfp/e/uFaa6z7beePFfK+0F6v7j5QPViTqT9TmoL83THrmxjNhMhz8vbb8uPDzVx+cO7Ky09m3P/j8/vnK7BsqmbXuytPJ+xcajZ20Prj6ztiLptxOzzUOTeddmfhmNtcPFoV6GeXm6p2PDobPv5pfeoWB5Zf8HC906PeMp1815leP/A6y2Ws2j16saLJz97/hsXKjvr/lUnP+2fHZ1zn+0vzixB/lQnOx5vRfAJ5DAAPwHI+/+7B8pIE3u+3lwuVb7UNBW2x0dscy768dJFx/7f7439HFjQ6HyXjw937hOaqVUw4AH1T2zp43DtXaVn9p/otHEw9cvtVb2m2wrc3JD7bSWdkcHdhSa3Ktq8Hg4DnT9dbEgO29T2tL/a3xW3TmSn9dnozs9fX1017ld6bWGfz05ZXd86of/L1y3E8Oz/eyn6NwZJpzYa23tlXYWm/PNbrjL6+82P7oYH2p4U8Us43O+sb4Ew1H51vVSqf2bGiW55u7g7HvHZmFfLBM9HvN41a2eoXjPzBdX9pf5vs9058BeAEBDMARxUZ7cmLusIHfriysbuy1Xrk5/e0v68+URqm5trNE9PLC0rj+ttaXmqNVg89f/7Z/5OJGu4O/z3P5dP07PKDm4qGQftReWhlX3NZmv7dQK73z94PNlz66PXnkpUp1Yhnhp8t/PTdVrPcbixOnsw4z9+2pyv6Vk0qHBmzv//2ds6MB63eahfYP/5g8nffB3989u3uJolOYLs+vbjy8/bf3Rnsefd3Ts432an9zt6GHfdhfnbjw7vArvfLR3MT3//KfYzia3ZxM3C/ePzt19t12dWF39vF0rbP29ZWJJ3zz8ehCyuPR+frq/OqxF6sq1Zvjzr0yP3dk7H5vkaxnt7zq8U8qLyztLBB23dWPAHiRqe3t7QIAHLG51m4utFbuPtjt1DPnz5fKtflms16bLZ48y3RzvbPYXGzf/Xk0HvrW5RuLS0vztcPr+W71GsVr3zw/fwtnPvnXVrvy3Kf06pOX5Tl5T6MDr87V5xuN6rPLTA+Dvjb/3fBoz1y4Ul9Yas1XhmW3udqszn1xf3SI56981llZOpx7W4OVhcZCZ+erOXPh+lK306xstmbLSxvl2drsbGVuOHo9WyoWZ156Nu7Wxnqv22l3uuuDR48mvqK3zp8vlquVSrVer1XKpZk38jk211qN+sLoRaNXzbe6rSN5ujXotRcWllbuP3q6801enltstRrVE//+W925sx8Wvn2y8sxliE7e8urHP2F9ofRuq/bDVrtaAIDnEcAAwO/bRrsyO2gfujQTABznTwUAgN+xfmtpo9FTvwC8mHOAAYDfkc3VZnl0OvL+KcHrnU7R8lcAnIop0ADA70d/ofTO5z+Pb350Z7tTG51e3J77ZdUCWACcginQAMDvx2Dj572bW1tbmyuN+d4nKyvqF4BTMQIMAPx+bPXqM9cmr7p8/dtfV+ozBQA4BecAAwC/wEjTpwAAEABJREFUH9O1zvqX1y+cGd0+c/mj27+oXwBOzwgwAAAAEZwDDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQAQBDAAAQIQTA/if//xnAQAAAH5X/vznP//lL385dtOfnvOaoQIAAAD8IUxtb28XAAAA4I/OOcAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABEEMAAAABE+J8CAPBv1qtPTdV7BQDg32pqe3u7AAAAAH90pkADAAAQQQADAAAQwTnAAPCaRmf0lluDQas8NTK8ubdl76F9O9tGD+89a/yUem+8k5HxqcEHr5vY4qxhAHhNAhgAXscwT68tFwoPbl6sFXrb2w9vXXpwc6G3u+nizcKth9tDd24M79+4s91vloZxe/Hmg50X791evjbVaew8bbk5LONSs7/zkkuVcqFcuTR+7Xa3VgAAXoMABoDXUeuOU/XSrYfDuC0USuXZvS2D/nrh0vxcafysxvA56/3B8OYwboeVvPOUvdvDvB3X7bh1J3c87Oqpi2st8QsAb4IABoDfRqnZurE3GjwZw6dX646HgZc75j4DwJtgESwA+K3Ulm5dunhtanl0ezjIOxohfhmDVrlZefiwUrt4rVzZGWAGAF6DAAaA30ivPp69fPzk5Qdr/eEg8ckvHtZvrdAbV2//YaF88WK5oIEB4PVMbW9vFwCAV7S7CFZhfBpwa+3iwZ3+3MrBclc7Ruf6lg8WwbrRubXe2Lt952Glubfh//zfS////z3YPbO4MPGCO04GBoBXJ4AB4DfSq9cL3UPB2mu1yk3DuADwH2IRLAD4TfTqu4PBE490yuoXAP5zjAADwG/kYHb0DhOYAeA/SwADAAAQwSrQAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAUAABIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAAOD9FIEAAAGmSURBVCIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACL8LwAAAP//T0qj9QAAAAZJREFUAwDLZtaD+KcF+AAAAABJRU5ErkJggg==",
-                "mime_type": "image/png"
-              }
-            ]
+              "duration": 90192800
+            }
           }
         ],
         "tags": [
@@ -105,7 +98,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 550354900
+              "duration": 563986100
             }
           },
           {
@@ -114,11 +107,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2605709099
+              "duration": 3720955299
             }
           },
           {
@@ -130,9 +123,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 30015094699,
-              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('xpath=(//a[@class=\\'icon-left both nav-link dropdown-toggle\\']/div/span)[2]') to be visible\u001b[22m\n\n    at PlaywrightWrapper.waitAndClick (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\helper\\wrapper\\PlaywrightWrappers.ts:12:15)\n    at PlaywrightWrapper.click (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\helper\\wrapper\\PlaywrightWrappers.ts:25:16)\n    at AddOnsPage.clickAddonsMenu (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\pages\\addonsPage.ts:26:21)\n    at World.<anonymous> (D:\\Lambdatesters\\Playwright_Lambdatesters\\Playwright_Cucumber\\src\\test\\steps\\addonsStep.ts:11:28)"
+              "status": "passed",
+              "duration": 200339799
             }
           },
           {
@@ -144,8 +136,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1969820200
             }
           },
           {
@@ -157,8 +149,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:26"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2393010699
             }
           },
           {
@@ -170,8 +162,8 @@
               "location": "src\\test\\steps\\addonsStep.ts:30"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1936458299
             }
           },
           {
@@ -179,14 +171,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 140693900
-            },
-            "embeddings": [
-              {
-                "data": "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AhgAXscwT68tFwoPbl6sFXrb2w9vXXpwc6G3u+nizcKth9tDd24M79+4s91vloZxe/Hmg50X791evjbVaew8bbk5LONSs7/zkkuVcqFcuTR+7Xa3VgAAXoMABoDXUeuOU/XSrYfDuC0USuXZvS2D/nrh0vxcafysxvA56/3B8OYwboeVvPOUvdvDvB3X7bh1J3c87Oqpi2st8QsAb4IABoDfRqnZurE3GjwZw6dX646HgZc75j4DwJtgESwA+K3Ulm5dunhtanl0ezjIOxohfhmDVrlZefiwUrt4rVzZGWAGAF6DAAaA30ivPp69fPzk5Qdr/eEg8ckvHtZvrdAbV2//YaF88WK5oIEB4PVMbW9vFwCAV7S7CFZhfBpwa+3iwZ3+3MrBclc7Ruf6lg8WwbrRubXe2Lt952Glubfh//zfS////z3YPbO4MPGCO04GBoBXJ4AB4DfSq9cL3UPB2mu1yk3DuADwH2IRLAD4TfTqu4PBE490yuoXAP5zjAADwG/kYHb0DhOYAeA/SwADAAAQwSrQAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAAARBDAAAUAABIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAAOD9FIEAAAGmSURBVCIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACIIYAAAACL8LwAAAP//T0qj9QAAAAZJREFUAwDLZtaD+KcF+AAAAABJRU5ErkJggg==",
-                "mime_type": "image/png"
-              }
-            ]
+              "duration": 31106800
+            }
           }
         ],
         "tags": [
@@ -220,7 +206,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 114971899
+              "duration": 116410799
             }
           },
           {
@@ -229,11 +215,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 13319403899
+              "duration": 3486542399
             }
           },
           {
@@ -246,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12165766799
+              "duration": 3894867500
             }
           },
           {
@@ -259,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1408422599
+              "duration": 1386871799
             }
           },
           {
@@ -272,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 436672999
+              "duration": 385609200
             }
           },
           {
@@ -285,7 +271,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2068400
+              "duration": 3187900
             }
           },
           {
@@ -298,7 +284,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1301150699
+              "duration": 1034212499
             }
           },
           {
@@ -311,7 +297,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1446808499
+              "duration": 1400391900
             }
           },
           {
@@ -324,7 +310,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 448106299
+              "duration": 1163124099
             }
           },
           {
@@ -337,7 +323,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1899716399
+              "duration": 1846829599
             }
           },
           {
@@ -350,7 +336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1988947899
+              "duration": 1542003700
             }
           },
           {
@@ -363,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 97879600
+              "duration": 210084699
             }
           },
           {
@@ -376,7 +362,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1002760299
+              "duration": 774614400
             }
           },
           {
@@ -384,7 +370,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 40993000
+              "duration": 45484099
             }
           }
         ],
@@ -408,7 +394,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 99373700
+              "duration": 165684099
             }
           },
           {
@@ -417,11 +403,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 14269858399
+              "duration": 3412754099
             }
           },
           {
@@ -434,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12638142900
+              "duration": 3443517499
             }
           },
           {
@@ -447,7 +433,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1413153399
+              "duration": 1943731300
             }
           },
           {
@@ -460,7 +446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 238298199
+              "duration": 277586499
             }
           },
           {
@@ -473,7 +459,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2543900
+              "duration": 2163399
             }
           },
           {
@@ -486,7 +472,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 910835400
+              "duration": 1704702700
             }
           },
           {
@@ -499,7 +485,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1423552700
+              "duration": 1388228200
             }
           },
           {
@@ -512,7 +498,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 523475699
+              "duration": 469733800
             }
           },
           {
@@ -525,7 +511,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1918086800
+              "duration": 1864749800
             }
           },
           {
@@ -538,7 +524,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3408299
+              "duration": 2458600
             }
           },
           {
@@ -551,7 +537,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1479496599
+              "duration": 1478612200
             }
           },
           {
@@ -564,7 +550,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 491035600
+              "duration": 512194400
             }
           },
           {
@@ -572,7 +558,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23187799
+              "duration": 64355400
             }
           }
         ],
@@ -596,7 +582,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 142468200
+              "duration": 209464699
             }
           },
           {
@@ -605,11 +591,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3638490000
+              "duration": 3437067699
             }
           },
           {
@@ -622,7 +608,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3532682199
+              "duration": 2611707000
             }
           },
           {
@@ -635,7 +621,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1377628599
+              "duration": 1375351699
             }
           },
           {
@@ -648,7 +634,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 199293899
+              "duration": 229996899
             }
           },
           {
@@ -661,7 +647,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 501799
+              "duration": 360599
             }
           },
           {
@@ -674,7 +660,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 925709900
+              "duration": 957402000
             }
           },
           {
@@ -687,7 +673,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1401791400
+              "duration": 1405259600
             }
           },
           {
@@ -700,7 +686,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 471133999
+              "duration": 487086000
             }
           },
           {
@@ -713,7 +699,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1916794899
+              "duration": 2320647100
             }
           },
           {
@@ -726,7 +712,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1408914900
+              "duration": 1401188099
             }
           },
           {
@@ -739,7 +725,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1059300
+              "duration": 1085399
             }
           },
           {
@@ -752,7 +738,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 469678299
+              "duration": 1179296600
             }
           },
           {
@@ -760,7 +746,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 76939299
+              "duration": 28598399
             }
           }
         ],
@@ -784,7 +770,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 93122099
+              "duration": 202491699
             }
           },
           {
@@ -793,11 +779,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3477687500
+              "duration": 3116602199
             }
           },
           {
@@ -810,7 +796,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3220528699
+              "duration": 3803473200
             }
           },
           {
@@ -823,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1384703999
+              "duration": 1398265199
             }
           },
           {
@@ -836,7 +822,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 194891700
+              "duration": 209689899
             }
           },
           {
@@ -849,7 +835,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 546900
+              "duration": 421999
             }
           },
           {
@@ -862,7 +848,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 965370500
+              "duration": 974564099
             }
           },
           {
@@ -875,7 +861,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1429504500
+              "duration": 1911783500
             }
           },
           {
@@ -888,7 +874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 456903200
+              "duration": 503107400
             }
           },
           {
@@ -901,7 +887,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1593664700
+              "duration": 2349769899
             }
           },
           {
@@ -914,7 +900,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1005900
+              "duration": 807800
             }
           },
           {
@@ -927,7 +913,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1760699
+              "duration": 510900
             }
           },
           {
@@ -940,7 +926,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1898690000
+              "duration": 1852037299
             }
           },
           {
@@ -948,7 +934,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 89229399
+              "duration": 39962800
             }
           }
         ],
@@ -983,7 +969,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 139046500
+              "duration": 112606599
             }
           },
           {
@@ -992,11 +978,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3302429400
+              "duration": 3294720099
             }
           },
           {
@@ -1009,7 +995,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 637578899
+              "duration": 708637000
             }
           },
           {
@@ -1022,7 +1008,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2793051199
+              "duration": 2761152799
             }
           },
           {
@@ -1035,7 +1021,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1466362099
+              "duration": 1413472099
             }
           },
           {
@@ -1067,7 +1053,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83483299
+              "duration": 80218100
             }
           },
           {
@@ -1080,7 +1066,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 120774599
+              "duration": 91569600
             }
           },
           {
@@ -1093,7 +1079,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 931256299
+              "duration": 391107599
             }
           },
           {
@@ -1101,7 +1087,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16087299
+              "duration": 16161800
             }
           }
         ],
@@ -1136,7 +1122,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 128375499
+              "duration": 178959100
             }
           },
           {
@@ -1145,11 +1131,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3449915399
+              "duration": 3421422400
             }
           },
           {
@@ -1158,11 +1144,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1601862099
+              "duration": 1374186700
             }
           },
           {
@@ -1175,7 +1161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2426084499
+              "duration": 1910029199
             }
           },
           {
@@ -1188,7 +1174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1399332599
+              "duration": 1411301699
             }
           },
           {
@@ -1201,7 +1187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1528994699
+              "duration": 1440845300
             }
           },
           {
@@ -1214,7 +1200,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83007200
+              "duration": 69977700
             }
           },
           {
@@ -1222,7 +1208,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15021100
+              "duration": 14934699
             }
           }
         ],
@@ -1246,7 +1232,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 105813200
+              "duration": 114515899
             }
           },
           {
@@ -1255,11 +1241,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 4532964200
+              "duration": 3468737399
             }
           },
           {
@@ -1268,11 +1254,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1347576999
+              "duration": 1265932499
             }
           },
           {
@@ -1285,7 +1271,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2395661099
+              "duration": 2376226799
             }
           },
           {
@@ -1298,7 +1284,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1394923600
+              "duration": 1446706300
             }
           },
           {
@@ -1311,7 +1297,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 547938200
+              "duration": 582539699
             }
           },
           {
@@ -1324,7 +1310,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119351000
+              "duration": 49581799
             }
           },
           {
@@ -1332,7 +1318,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15926300
+              "duration": 13675799
             }
           }
         ],
@@ -1356,7 +1342,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 91200800
+              "duration": 86720499
             }
           },
           {
@@ -1365,11 +1351,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 4448451199
+              "duration": 3311081999
             }
           },
           {
@@ -1378,11 +1364,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1396379899
+              "duration": 1321810399
             }
           },
           {
@@ -1395,7 +1381,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2991988400
+              "duration": 2359023999
             }
           },
           {
@@ -1408,7 +1394,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1950303599
+              "duration": 1403562399
             }
           },
           {
@@ -1421,7 +1407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 581859799
+              "duration": 603057499
             }
           },
           {
@@ -1434,7 +1420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64864100
+              "duration": 91800900
             }
           },
           {
@@ -1442,7 +1428,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17723200
+              "duration": 15198600
             }
           }
         ],
@@ -1467,664 +1453,6 @@
     "elements": [
       {
         "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "User tries to login with valid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 106070800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3305538699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1320862199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user enters valid credentials",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2523418899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 965909500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the user should see the My Account page",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1954375699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 20382599
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_valid_input",
-            "line": 7
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
-        "keyword": "Scenario Outline",
-        "line": 24,
-        "name": "User tries to login with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 114828899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3490409200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1335120599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the user enters E-Mail \"atgs2@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1907134399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the user enters Password \"12345\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30779600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 645922099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check1\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 64267500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 13818400
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_invalid_input",
-            "line": 15
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
-        "keyword": "Scenario Outline",
-        "line": 25,
-        "name": "User tries to login with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 103433099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3422045399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1309205499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the user enters E-Mail \"atk62@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2421423699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the user enters Password \"1234\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23285200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 560587299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check2\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 82760700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 17429000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_invalid_input",
-            "line": 15
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
-        "keyword": "Scenario Outline",
-        "line": 26,
-        "name": "User tries to login with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 115355800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3533969699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1586103900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the user enters E-Mail \"\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2487612599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the user enters Password \"12345\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 28556199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 519517200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check3\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 85172400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 22741599
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_invalid_input",
-            "line": 15
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
-        "keyword": "Scenario Outline",
-        "line": 27,
-        "name": "User tries to login with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 111978100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3427913599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1642859800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the user enters E-Mail \"\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2445419599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the user enters Password \"\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 25437899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 438035000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check4\"",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 69560499
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 15575900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_invalid_input",
-            "line": 15
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials-and-logs-out",
-        "keyword": "Scenario",
-        "line": 31,
-        "name": "User tries to login with valid credentials and logs out",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 122123500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "the user is on the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3497860799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "the user clicks on My Account and selects login",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1615393799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 32,
-            "name": "the user enters valid credentials",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1964868099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "the user clicks on the Login button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 836937999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 34,
-            "name": "the user logs out",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1676033799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 35,
-            "name": "the user should see the Account Logout page",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:64"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1408584600
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 13876499
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@logout",
-            "line": 30
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "jeevika_18jul2025_lambdatesters_login",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Jeevika_18JUL2025_LambdaTesters_Login",
-    "tags": [],
-    "uri": "src\\test\\features\\Login.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "jeevika_21jul2025_lambdatesters_megamenu;user-chooses-apple-from-main-menu",
         "keyword": "Scenario",
         "line": 7,
@@ -2135,7 +1463,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 98722899
+              "duration": 91766399
             }
           },
           {
@@ -2144,11 +1472,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3476368099
+              "duration": 3476129899
             }
           },
           {
@@ -2161,7 +1489,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 421020799
+              "duration": 348636700
             }
           },
           {
@@ -2174,7 +1502,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 625035799
+              "duration": 915204800
             }
           },
           {
@@ -2187,7 +1515,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1395470699
+              "duration": 2507206899
             }
           },
           {
@@ -2195,7 +1523,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17593700
+              "duration": 16724799
             }
           }
         ],
@@ -2230,7 +1558,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 122423399
+              "duration": 98437699
             }
           },
           {
@@ -2239,11 +1567,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3596839800
+              "duration": 3502225299
             }
           },
           {
@@ -2256,7 +1584,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1730998300
+              "duration": 1927289600
             }
           },
           {
@@ -2269,7 +1597,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2052025099
+              "duration": 1924232100
             }
           },
           {
@@ -2282,7 +1610,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2281799
+              "duration": 1542800
             }
           },
           {
@@ -2295,7 +1623,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1423725399
+              "duration": 1454083700
             }
           },
           {
@@ -2308,7 +1636,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27626600
+              "duration": 27542700
             }
           },
           {
@@ -2321,7 +1649,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85566900
+              "duration": 85631800
             }
           },
           {
@@ -2334,7 +1662,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83775200
+              "duration": 74854100
             }
           },
           {
@@ -2347,7 +1675,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 366730800
+              "duration": 354467900
             }
           },
           {
@@ -2355,7 +1683,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19282799
+              "duration": 21873000
             }
           }
         ],
@@ -2379,7 +1707,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94557600
+              "duration": 143920699
             }
           },
           {
@@ -2388,11 +1716,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3483526599
+              "duration": 3446704200
             }
           },
           {
@@ -2405,7 +1733,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1605861499
+              "duration": 1755923699
             }
           },
           {
@@ -2418,7 +1746,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2757666400
+              "duration": 2046834099
             }
           },
           {
@@ -2431,7 +1759,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3381500
+              "duration": 2152699
             }
           },
           {
@@ -2444,7 +1772,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1383337100
+              "duration": 1412387100
             }
           },
           {
@@ -2457,7 +1785,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29333500
+              "duration": 36408000
             }
           },
           {
@@ -2470,7 +1798,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1502900
+              "duration": 1682199
             }
           },
           {
@@ -2483,7 +1811,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85828500
+              "duration": 78609200
             }
           },
           {
@@ -2496,7 +1824,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 382114299
+              "duration": 349463799
             }
           },
           {
@@ -2504,7 +1832,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 20569699
+              "duration": 14938399
             }
           }
         ],
@@ -2528,7 +1856,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 111425199
+              "duration": 135400399
             }
           },
           {
@@ -2537,11 +1865,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3456501699
+              "duration": 3497249099
             }
           },
           {
@@ -2554,7 +1882,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1887159100
+              "duration": 1629596900
             }
           },
           {
@@ -2567,7 +1895,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2153739000
+              "duration": 2328969199
             }
           },
           {
@@ -2580,7 +1908,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1023100
+              "duration": 631800
             }
           },
           {
@@ -2593,7 +1921,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1394328399
+              "duration": 1418440099
             }
           },
           {
@@ -2606,7 +1934,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26306400
+              "duration": 29874400
             }
           },
           {
@@ -2619,7 +1947,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81966899
+              "duration": 81607500
             }
           },
           {
@@ -2632,7 +1960,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69854200
+              "duration": 67981200
             }
           },
           {
@@ -2645,7 +1973,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 351712199
+              "duration": 348135699
             }
           },
           {
@@ -2653,7 +1981,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18657399
+              "duration": 12816399
             }
           }
         ],
@@ -2688,7 +2016,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 116195000
+              "duration": 127913599
             }
           },
           {
@@ -2697,11 +2025,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3293428100
+              "duration": 3510387900
             }
           },
           {
@@ -2714,7 +2042,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1379450299
+              "duration": 1588839799
             }
           },
           {
@@ -2727,7 +2055,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2359203600
+              "duration": 1838245199
             }
           },
           {
@@ -2740,7 +2068,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1585456399
+              "duration": 1638518100
             }
           },
           {
@@ -2753,7 +2081,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82875000
+              "duration": 102328500
             }
           },
           {
@@ -2766,7 +2094,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 892464600
+              "duration": 843798200
             }
           },
           {
@@ -2779,7 +2107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1958434999
+              "duration": 1925826999
             }
           },
           {
@@ -2787,7 +2115,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15914099
+              "duration": 17237500
             }
           }
         ],
@@ -2819,7 +2147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104840200
+              "duration": 107366999
             }
           },
           {
@@ -2828,11 +2156,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3446362699
+              "duration": 3489489800
             }
           },
           {
@@ -2845,7 +2173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1377831999
+              "duration": 1355145400
             }
           },
           {
@@ -2858,7 +2186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2401943499
+              "duration": 2352290399
             }
           },
           {
@@ -2871,7 +2199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1654527400
+              "duration": 1849623699
             }
           },
           {
@@ -2884,7 +2212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84885500
+              "duration": 185350699
             }
           },
           {
@@ -2897,7 +2225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 480646600
+              "duration": 521572000
             }
           },
           {
@@ -2910,7 +2238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75678500
+              "duration": 113402499
             }
           },
           {
@@ -2918,7 +2246,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15167700
+              "duration": 10854900
             }
           }
         ],
@@ -2946,7 +2274,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 168749600
+              "duration": 126108800
             }
           },
           {
@@ -2955,11 +2283,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3479838500
+              "duration": 3445943199
             }
           },
           {
@@ -2972,7 +2300,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1312304100
+              "duration": 1402408899
             }
           },
           {
@@ -2985,7 +2313,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2845965700
+              "duration": 2867608500
             }
           },
           {
@@ -2998,7 +2326,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1631730200
+              "duration": 1637994299
             }
           },
           {
@@ -3011,7 +2339,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 88267500
+              "duration": 64551399
             }
           },
           {
@@ -3024,7 +2352,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 504045000
+              "duration": 485923299
             }
           },
           {
@@ -3037,7 +2365,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81205799
+              "duration": 103875800
             }
           },
           {
@@ -3045,7 +2373,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15391000
+              "duration": 25517899
             }
           }
         ],
@@ -3073,7 +2401,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 100431400
+              "duration": 110086799
             }
           },
           {
@@ -3082,11 +2410,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3467455600
+              "duration": 3381886299
             }
           },
           {
@@ -3099,7 +2427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1569012499
+              "duration": 1130935599
             }
           },
           {
@@ -3112,7 +2440,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2432996199
+              "duration": 2486655299
             }
           },
           {
@@ -3125,7 +2453,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1602220999
+              "duration": 1646322700
             }
           },
           {
@@ -3138,7 +2466,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65359100
+              "duration": 74977799
             }
           },
           {
@@ -3151,7 +2479,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 460995900
+              "duration": 440793699
             }
           },
           {
@@ -3164,7 +2492,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 73930800
+              "duration": 68064700
             }
           },
           {
@@ -3172,7 +2500,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13677499
+              "duration": 17244200
             }
           }
         ],
@@ -3200,7 +2528,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94053400
+              "duration": 147786699
             }
           },
           {
@@ -3209,11 +2537,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3212108500
+              "duration": 3499554900
             }
           },
           {
@@ -3226,7 +2554,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1103135899
+              "duration": 1534567800
             }
           },
           {
@@ -3239,7 +2567,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2472463400
+              "duration": 2853856699
             }
           },
           {
@@ -3252,7 +2580,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1625516999
+              "duration": 1613019699
             }
           },
           {
@@ -3265,7 +2593,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66707099
+              "duration": 82092099
             }
           },
           {
@@ -3278,7 +2606,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 519898300
+              "duration": 480389500
             }
           },
           {
@@ -3291,7 +2619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67152900
+              "duration": 68192999
             }
           },
           {
@@ -3299,7 +2627,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23192800
+              "duration": 18129700
             }
           }
         ],
@@ -3327,7 +2655,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 86740899
+              "duration": 91752299
             }
           },
           {
@@ -3336,11 +2664,11 @@
             "line": 7,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3284407799
+              "duration": 3286128400
             }
           },
           {
@@ -3353,7 +2681,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1160709499
+              "duration": 1097916800
             }
           },
           {
@@ -3366,7 +2694,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2396453800
+              "duration": 2331653700
             }
           },
           {
@@ -3379,7 +2707,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1681955999
+              "duration": 2260208799
             }
           },
           {
@@ -3392,7 +2720,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1256252500
+              "duration": 1228241000
             }
           },
           {
@@ -3405,7 +2733,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90272400
+              "duration": 107905899
             }
           },
           {
@@ -3413,7 +2741,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16419599
+              "duration": 11586900
             }
           }
         ],
@@ -3457,7 +2785,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 87164600
+              "duration": 115117899
             }
           },
           {
@@ -3466,11 +2794,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3490068399
+              "duration": 3443679600
             }
           },
           {
@@ -3483,7 +2811,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 470168399
+              "duration": 303891499
             }
           },
           {
@@ -3496,7 +2824,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2018750599
+              "duration": 1840562100
             }
           },
           {
@@ -3509,7 +2837,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2997256500
+              "duration": 2640315100
             }
           },
           {
@@ -3522,7 +2850,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54471799
+              "duration": 70082299
             }
           },
           {
@@ -3530,7 +2858,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15218200
+              "duration": 26589200
             }
           }
         ],
@@ -3574,7 +2902,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 114138500
+              "duration": 80358800
             }
           },
           {
@@ -3587,7 +2915,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3271310599
+              "duration": 3261754499
             }
           },
           {
@@ -3600,7 +2928,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1078456000
+              "duration": 1327166800
             }
           },
           {
@@ -3613,7 +2941,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2620138299
+              "duration": 2676271399
             }
           },
           {
@@ -3626,7 +2954,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1455195700
+              "duration": 1454467100
             }
           },
           {
@@ -3639,7 +2967,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 904814299
+              "duration": 868056299
             }
           },
           {
@@ -3647,7 +2975,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18798700
+              "duration": 15384900
             }
           }
         ],
@@ -3671,7 +2999,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 109320199
+              "duration": 137098799
             }
           },
           {
@@ -3684,7 +3012,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3455733799
+              "duration": 3420482999
             }
           },
           {
@@ -3697,7 +3025,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1527164099
+              "duration": 1795249400
             }
           },
           {
@@ -3710,7 +3038,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3219250999
+              "duration": 2822138399
             }
           },
           {
@@ -3723,7 +3051,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1465781500
+              "duration": 1460190499
             }
           },
           {
@@ -3736,7 +3064,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1089020900
+              "duration": 791312100
             }
           },
           {
@@ -3749,7 +3077,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1468758399
+              "duration": 1448532999
             }
           },
           {
@@ -3762,7 +3090,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 745880899
+              "duration": 778851899
             }
           },
           {
@@ -3770,7 +3098,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 20723800
+              "duration": 17565400
             }
           }
         ],
@@ -3794,7 +3122,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 120147100
+              "duration": 106579100
             }
           },
           {
@@ -3807,7 +3135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3406126600
+              "duration": 3400533100
             }
           },
           {
@@ -3820,7 +3148,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1589784000
+              "duration": 1604339100
             }
           },
           {
@@ -3833,7 +3161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2706714600
+              "duration": 2604934199
             }
           },
           {
@@ -3846,7 +3174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1987270599
+              "duration": 1440549499
             }
           },
           {
@@ -3859,7 +3187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 334771999
+              "duration": 330710800
             }
           },
           {
@@ -3867,7 +3195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13629899
+              "duration": 20747800
             }
           }
         ],
@@ -3892,6 +3220,664 @@
     "elements": [
       {
         "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User tries to login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115703700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3496716799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1339053000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1925836700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 809893600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see the My Account page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2016681300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18072699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_valid_input",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118492800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3321323100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1294082200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"atgs2@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2418907000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"12345\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21111700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 479744200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check1\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62465700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17218499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144747000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3289220199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1371006800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"atk62@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2475246299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"1234\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30434500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500576499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: No match for E-Mail Address and/or Password.\" and \"check2\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64555300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16881400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 107708799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3420335300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1289354699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969143199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"12345\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32636500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587118300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check3\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110030899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11538999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "User tries to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150385500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3715097600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242401800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters E-Mail \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1385722699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user enters Password \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22462299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557821599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see the \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\" and \"check4\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97241099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19163399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_invalid_input",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevika_18jul2025_lambdatesters_login;user-tries-to-login-with-valid-credentials-and-logs-out",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "User tries to login with valid credentials and logs out",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91987999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3496800900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on My Account and selects login",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1303969000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2042963300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the user clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 841876699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the user logs out",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2101316400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the user should see the Account Logout page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1379637099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14592200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevika_18jul2025_lambdatesters_login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Jeevika_18JUL2025_LambdaTesters_Login",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "saranya_15apr2025_lambdatesters_product_compare_functionality;to-perform-compare-without-adding-products-to-list",
         "keyword": "Scenario Outline",
         "line": 8,
@@ -3902,7 +3888,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 95807600
+              "duration": 118777199
             }
           },
           {
@@ -3911,11 +3897,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3448567299
+              "duration": 3275403200
             }
           },
           {
@@ -3928,7 +3914,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1323662600
+              "duration": 1020076100
             }
           },
           {
@@ -3941,7 +3927,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2499202699
+              "duration": 3066363000
             }
           },
           {
@@ -3954,7 +3940,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1941201300
+              "duration": 1952276899
             }
           },
           {
@@ -3962,7 +3948,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13246500
+              "duration": 29522700
             }
           }
         ],
@@ -3990,7 +3976,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 101733300
+              "duration": 119598899
             }
           },
           {
@@ -3999,11 +3985,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3264664500
+              "duration": 3249111299
             }
           },
           {
@@ -4016,7 +4002,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1034468900
+              "duration": 953176000
             }
           },
           {
@@ -4029,7 +4015,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3422951500
+              "duration": 2062726500
             }
           },
           {
@@ -4042,7 +4028,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1449338199
+              "duration": 1409376199
             }
           },
           {
@@ -4055,7 +4041,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 509134600
+              "duration": 688320100
             }
           },
           {
@@ -4068,7 +4054,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1546299
+              "duration": 1443499
             }
           },
           {
@@ -4076,7 +4062,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15937000
+              "duration": 16217799
             }
           }
         ],
@@ -4104,7 +4090,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94634100
+              "duration": 173657100
             }
           },
           {
@@ -4113,11 +4099,11 @@
             "line": 5,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3152462199
+              "duration": 3205363899
             }
           },
           {
@@ -4130,7 +4116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 990698799
+              "duration": 924030200
             }
           },
           {
@@ -4143,7 +4129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1999835599
+              "duration": 1963053600
             }
           },
           {
@@ -4151,7 +4137,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 77872400
+              "duration": 54268400
             }
           }
         ],
@@ -4195,7 +4181,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133496699
+              "duration": 94190800
             }
           },
           {
@@ -4204,11 +4190,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3328970299
+              "duration": 3268954900
             }
           },
           {
@@ -4217,11 +4203,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1131954899
+              "duration": 1308314099
             }
           },
           {
@@ -4230,11 +4216,11 @@
             "line": 6,
             "name": "the user enters valid credentials",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
+              "location": "src\\test\\steps\\loginstep.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2501054700
+              "duration": 2447030999
             }
           },
           {
@@ -4243,11 +4229,11 @@
             "line": 7,
             "name": "the user clicks on the Login button",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
+              "location": "src\\test\\steps\\loginstep.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 919549200
+              "duration": 891416199
             }
           },
           {
@@ -4260,7 +4246,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2382366399
+              "duration": 2357062199
             }
           },
           {
@@ -4273,7 +4259,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1909625200
+              "duration": 1388480299
             }
           },
           {
@@ -4286,7 +4272,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 895674700
+              "duration": 725682600
             }
           },
           {
@@ -4299,7 +4285,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96310100
+              "duration": 103115400
             }
           },
           {
@@ -4307,7 +4293,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15717699
+              "duration": 11775800
             }
           }
         ],
@@ -4331,7 +4317,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 106008899
+              "duration": 92439400
             }
           },
           {
@@ -4340,11 +4326,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3477864000
+              "duration": 3317400400
             }
           },
           {
@@ -4353,11 +4339,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1627285499
+              "duration": 1353028500
             }
           },
           {
@@ -4366,11 +4352,11 @@
             "line": 6,
             "name": "the user enters valid credentials",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
+              "location": "src\\test\\steps\\loginstep.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2450167900
+              "duration": 2441480000
             }
           },
           {
@@ -4379,11 +4365,11 @@
             "line": 7,
             "name": "the user clicks on the Login button",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
+              "location": "src\\test\\steps\\loginstep.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 999767099
+              "duration": 841506099
             }
           },
           {
@@ -4396,7 +4382,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2409139399
+              "duration": 1844313400
             }
           },
           {
@@ -4409,7 +4395,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1446899199
+              "duration": 1429762600
             }
           },
           {
@@ -4422,7 +4408,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1173759099
+              "duration": 1074503400
             }
           },
           {
@@ -4435,7 +4421,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67565000
+              "duration": 59250300
             }
           },
           {
@@ -4443,7 +4429,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14641000
+              "duration": 10445499
             }
           }
         ],
@@ -4467,7 +4453,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 126650699
+              "duration": 85676900
             }
           },
           {
@@ -4476,11 +4462,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3564578099
+              "duration": 3247546600
             }
           },
           {
@@ -4489,11 +4475,11 @@
             "line": 5,
             "name": "the user clicks on My Account and selects login",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
+              "location": "src\\test\\steps\\loginstep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1590558499
+              "duration": 1457894200
             }
           },
           {
@@ -4502,11 +4488,11 @@
             "line": 6,
             "name": "the user enters valid credentials",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:22"
+              "location": "src\\test\\steps\\loginstep.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2436898000
+              "duration": 2445367399
             }
           },
           {
@@ -4515,11 +4501,11 @@
             "line": 7,
             "name": "the user clicks on the Login button",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:28"
+              "location": "src\\test\\steps\\loginstep.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 925806899
+              "duration": 886491999
             }
           },
           {
@@ -4532,7 +4518,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1886510300
+              "duration": 1828370100
             }
           },
           {
@@ -4545,7 +4531,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1863315200
+              "duration": 1851662099
             }
           },
           {
@@ -4558,7 +4544,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 107653800
+              "duration": 60421699
             }
           },
           {
@@ -4566,7 +4552,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15651799
+              "duration": 17932499
             }
           }
         ],
