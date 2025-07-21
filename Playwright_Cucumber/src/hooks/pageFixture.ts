@@ -16,7 +16,8 @@ import ProductComaprePage from '../pages/productComparePage';
 import AddOnDesignPage from '../pages/addonDesignPage';
 import HomePage from '../pages/homePage';
 import CheckoutPage from '../pages/checkOutPage';
-import UserAccountPage from '../pages/useraccountPage';
+import MyOrderPage from '../pages/myOrderPage';
+
 interface PageFixture {
     page: Page | undefined;
     logger: Logger | undefined;
@@ -26,7 +27,7 @@ interface PageFixture {
     addondesignPage: AddOnDesignPage | undefined;
     homePage: HomePage | undefined;
     checkoutPage: CheckoutPage | undefined;
-    useraccountPage: UserAccountPage | undefined;
+    myorderPage: MyOrderPage | undefined; 
 }
 
 export const pageFixture: PageFixture = {
@@ -38,5 +39,5 @@ export const pageFixture: PageFixture = {
     addondesignPage: undefined,
     homePage: undefined,
     checkoutPage: undefined,
-     useraccountPage: undefined,
+    myorderPage: undefined
 };
