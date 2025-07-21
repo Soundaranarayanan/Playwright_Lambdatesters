@@ -1,1 +1,2 @@
-src\test\features\MegaMenu.feature:7
+src\test\features\Affiliate.feature:26
+src\test\features\MyOrder.feature:70
