@@ -1,8 +1,0 @@
-INFO 2025-07-20 22:24:11: Navigated to the homepage
-INFO 2025-07-20 22:24:12: Clicked on My Account and selected Login
-INFO 2025-07-20 22:24:14: Entered valid credentials
-INFO 2025-07-20 22:24:15: Clicked on the Login button
-INFO 2025-07-20 22:24:17: Navigated to "Edit your account information" page
-INFO 2025-07-20 22:24:19: Updated telephone number
-INFO 2025-07-20 22:24:20: Clicked on "EditInfo" Continue button
-INFO 2025-07-20 22:24:20: Verified success message: "Success: Your account has been successfully updated."

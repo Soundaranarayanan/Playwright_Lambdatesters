@@ -1,7 +1,0 @@
-INFO 2025-07-20 21:22:09: Navigated to the homepage
-INFO 2025-07-20 21:22:13: Initialized ProductReview page object
-INFO 2025-07-20 21:22:15: Entered reviewer name: soundar
-INFO 2025-07-20 21:22:15: Entered review text: Excellent product with great features
-INFO 2025-07-20 21:22:15: Selected 5-star rating
-INFO 2025-07-20 21:22:15: Clicked on Continue to submit review
-INFO 2025-07-20 21:22:15: Review submission success message: "Thank you for your review. It has been submitted to the webmaster for approval."
