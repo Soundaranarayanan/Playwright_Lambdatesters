@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 256103399
+              "duration": 372927200
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3747687500
+              "duration": 3556044899
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "user clicks on the main menu",
             "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:7"
+              "location": "src\\test\\steps\\megamenuStep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 367671299
+              "duration": 525855199
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "clicks on apple option",
             "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:12"
+              "location": "src\\test\\steps\\megamenuStep.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 858191699
+              "duration": 1040829399
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 10,
             "name": "the user should see products from apple",
             "match": {
-              "location": "src\\test\\steps\\megamenuStep.ts:16"
+              "location": "src\\test\\steps\\megamenuStep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2436616199
+              "duration": 1918079799
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 36987699
+              "duration": 38264599
             }
           }
         ],
