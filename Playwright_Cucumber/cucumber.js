@@ -16,5 +16,31 @@ module.exports = {
      ],
      requireModule: ["ts-node/register"],
 parallel:2
-   }
+   },
+   rerun: {
+        formatOptions: {
+            snippetInterface: "async-await"
+        },
+       paths: [
+            "@rerun.txt"
+        ],
+        dryRun: false,
+        require: [
+            "src/test/steps/*.ts",
+            "src/hooks/hooks.ts"
+        ],
+        requireModule: [
+            "ts-node/register"
+        ],
+        format: [
+            "progress-bar",
+            "html:test-results/rerun_report.html",
+            "json:test-results/cucumber-report.json",
+            "rerun:@rerun.txt"
+        ]
+       
+    }
 };
+
+  
+    

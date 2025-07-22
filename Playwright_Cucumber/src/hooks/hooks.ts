@@ -32,15 +32,13 @@ BeforeAll(async function () {
 
 
 Before(   async function ({pickle}) {
-  
-// browser = await chromium.launch({ headless: false }); // or true
+ 
   const scenarioName = pickle.name + pickle.id;
   context = await browser.newContext();
   const page = await context.newPage();
   pageFixture.page = page;
   pageFixture.logger = createLogger(options(scenarioName));
   
-  // Initialize page objects
   pageFixture.headerPage = new HeaderPage(page);
   pageFixture.registerPage = new RegisterPage(page);
   pageFixture.productComparePage=new ProductComaprePage(page);
@@ -63,7 +61,6 @@ After(async function ({pickle,result}) {
     await context.close();
     await pageFixture.logger?.close();
     
-    // Clean up page objects
     pageFixture.headerPage = undefined;
     pageFixture.registerPage = undefined;
     pageFixture.productComparePage =undefined;

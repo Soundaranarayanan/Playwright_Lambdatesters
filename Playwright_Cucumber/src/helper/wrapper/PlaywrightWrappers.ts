@@ -55,10 +55,6 @@ async click(locator: string | Locator) {
         await this.page.fill(selector, value);
     }
 
-  async waitforsometime(time: number){
-        await this.page.waitForTimeout(time);   
-    }
-
   async waitUntilClickable(locator: string | Locator, maxRetries = 5, delay = 500) {
     const element = typeof locator === "string" ? this.page.locator(locator) : locator;
 
@@ -127,6 +123,9 @@ async click(locator: string | Locator) {
             console.error(`Error getting text content for locator: ${locator}`, error);
             return "";
         }
+    }
+    async waitforsometime(time: number){
+        await this.page.waitForTimeout(time);   
     }
 
   async select(locator: Locator | string, value: string): Promise<void> {
