@@ -38,4 +38,10 @@ Scenario: Edit user account details
     And the user chooses to "Unsubscribe" the newsletter
     And clicks on the "Newsletter" Continue button
     Then user should see "Success: Your newsletter subscription has been successfully updated!"
-     
+  #    @ModifyAddress
+  # Scenario: Adding new address
+  # Then the user clicks "Modify your address book entries" page
+  # And the user clicks new address
+  # And user enters valid details
+  # And clicks on the "NewAddress" Continue button
+  # Then user should see "Your address has been successfully added"

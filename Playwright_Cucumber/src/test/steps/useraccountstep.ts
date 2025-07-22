@@ -4,7 +4,7 @@ import { expect } from '@playwright/test';
 import { pageFixture } from '../../hooks/pageFixture';
 import dotenv from 'dotenv';
 import useraccountPage from '../../pages/useraccountPage';
-
+import { getAddressData } from '../../helper/util/CSVVReader';
 dotenv.config();
 
 let useraccount: useraccountPage;
@@ -67,4 +67,26 @@ Then('the user enters current password and new password details', async function
   const newPassword = process.env.VALID_PASSWORD!;
   await useraccount.enterPasswordDetails(currentPassword, newPassword, newPassword);
   pageFixture.logger?.info('Entered current and new password details');
+});
+
+Then('the user clicks {string} page',async function(linkText: string){
+  useraccount = new useraccountPage(pageFixture.page!);
+  await useraccount.navigateToModifyAdderess(linkText);
+  pageFixture.logger?.info(`Navigated to "${linkText}" page`);
+});
+
+Then('the user clicks new address',async function(){
+await useraccount.ClickNewAddress();
+});
+
+
+Then('user enters valid details', async function () {
+  const testData = await getAddressData();
+  const firstName = testData[0]['firstname'];
+  const lastName = testData[0]['lastname'];
+  const address = testData[0]['address'];
+  const city = testData[0]['city'];
+  const postcode = testData[0]['postcode'];
+
+  await this.userAccount.enterValidDetails(firstName, lastName, address, city, postcode);
 });

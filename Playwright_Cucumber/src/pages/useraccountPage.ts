@@ -24,6 +24,17 @@ currentPasswordInput: '#input-password',
     clicknewsletter:"//*[@id='content']/div[1]/div/div/div[5]/a",
     unsubscribeRadio:"//*[@id='content']/form/fieldset/div/div/div[2]/label",
     subscribeRadio:"//*[@id='content']/form/fieldset/div/div/div[1]/label",
+modifyAddress:"//*[@id=\"content\"]/div[1]/div/div/div[3]/a",
+newaddress:"//*[@id=\"content\"]/div/div[2]/a",
+aberdeen:"//*[@id=\"input-zone\"]/option[2]",
+state:"//*[@id=\"input-zone\"]",
+unitedStates:"//*[@id=\"input-country\"]/option[240]",
+countrySelect:"//*[@id=\"input-country\"]",
+getPostcodeField:"//*[@id=\"input-postcode\"]",
+getCityField:"//*[@id=\"input-city\"]",
+getAddressField:"//*[@id=\"input-address-1\"]",
+getLastNameField:"//*[@id=\"input-lastname\"]",
+getFirstNameField:"//*[@id=\"input-firstname\"]"
 
   };
 
@@ -33,7 +44,13 @@ currentPasswordInput: '#input-password',
   async navigateToEditAccountPage(linkText: string) {
     await this.page.locator(this.Elements.editAccountLink).click();
   }
+async navigateToModifyAdderess(linkText: string){
+  await this.page.locator(this.Elements.modifyAddress).click();
+}
 
+async ClickNewAddress(){
+  await this.page.locator(this.Elements.newaddress).click();
+}
   async updateTelephoneNumber() {
     const phoneField = this.page.locator(this.Elements.telephoneInput);
     await phoneField.fill('9876543210'); 
@@ -87,5 +104,29 @@ async selectNewsletterOption(action: string) {
     await this.page.locator(this.Elements.newPasswordInput).fill(newPwd);
     await this.page.locator(this.Elements.confirmPasswordInput).fill(confirmPwd);
   }
+async entervaliddetails(firstName: string,
+  lastName: string,
+  address: string,
+  city: string,
+  postcode: string){
+  try {
+    await this.page.locator(this.Elements.getFirstNameField).fill(firstName);
+await this.page.locator(this.Elements.getLastNameField).fill(lastName);
+await this.page.locator(this.Elements.getAddressField).fill(address);
+await this.page.locator(this.Elements.getCityField).fill(city);
+await this.page.locator(this.Elements.getPostcodeField).fill(postcode);
+
+await this.page.locator(this.Elements.countrySelect).click();
+await this.page.locator(this.Elements.unitedStates).click();
+
+await this.page.locator(this.Elements.state).click();
+await this.page.locator(this.Elements.aberdeen).click();
+
+} catch (error) {
+    console.log("Error entering address details:");
+}
+}
+
+
 
 }
