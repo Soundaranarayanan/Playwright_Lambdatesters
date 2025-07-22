@@ -25,7 +25,7 @@ export default class RegisterPage{
 
 
     async enterRegistrationDetails(firstName: string, lastName : string , email: string, telephone: string, password: string, confirmPassword: string){
-        // const [firstName, lastName, email, telephone, password, confirmPassword] = arguments;
+        
         await this.base.fill(this.RegisterPageElements.firstName, firstName);
         await this.base.fill(this.RegisterPageElements.lastName, lastName);
         await this.base.fill(this.RegisterPageElements.registerEmail, email);

@@ -1,5 +1,5 @@
 @AddonDesigns
-Feature: Saranya_26MAY2025_LambdaTesters_AddOnsDesign
+Feature: Saranya_20JUL2025_LambdaTesters_AddOnsDesign
 
  Background:
     Given the user is on the homepage

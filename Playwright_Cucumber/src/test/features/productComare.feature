@@ -1,5 +1,5 @@
 @ProductCompare
-Feature: Saranya_15APR2025_LambdaTesters_Product_compare_functionality
+Feature: Saranya_20JUL2025_LambdaTesters_Product_compare_functionality
 
 Background:
     Given the user is on the homepage

@@ -50,7 +50,6 @@ Then('each link should redirect to its corresponding page successfully', { timeo
     const allLinks = await pageFixture.homePage.getAllLinks();
     console.log(`Found ${allLinks.length} links to check`);
     
-    // Check links with progress logging
     for (let i = 0; i < allLinks.length; i++) {
         console.log(`Checking link ${i + 1}/${allLinks.length}: ${allLinks[i]}`);
         await pageFixture.homePage.checkLink(allLinks[i]);

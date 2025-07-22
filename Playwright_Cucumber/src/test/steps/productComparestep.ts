@@ -12,17 +12,14 @@ import { DataReader } from '../../helper/jsondataReader';
 //           await pageFixture.productComparePage!.searchproductTocompare(string);
 //           pageFixture.logger?.info(`Searched for product: ${string}`);
 //          });
-
 When('the user searches {string}', async function (searchInput: string) {
     if (!pageFixture.headerPage) {
         throw new Error('headerPage is undefined');
     }
     
     let searchTerm: string;
-    
-    // Check if it's a JSON key (starts with @)
     if (searchInput.startsWith('@')) {
-        const key = searchInput.substring(1); // Remove @ prefix
+        const key = searchInput.substring(1); 
         searchTerm = DataReader.getSearchTerm(key);
     } else {
        

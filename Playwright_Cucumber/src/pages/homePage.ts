@@ -1,6 +1,5 @@
 import {expect,Page,Locator} from "@playwright/test";
 import PlaywrightWrapper from "../helper/wrapper/PlaywrightWrappers";
-// import { expect, Page, Locator } from "@playwright/test";
 import http from "http";
 import https from "https";
 import { URL } from "url";
