@@ -16,7 +16,7 @@ export default class ProductComaprePage{
         comparisionArrow:'//*[@id="entry_217823"]/a/span',
         product1:'//*[@id="mz-product-grid-image-41-212469"]/div/div[1]/img',
         comparisionProductDesc:'//*[@id="content"]/table/tbody[1]/tr[8]/td[2]',
-        noProductsmatchError:'//*[@id="entry_212469"]/p',
+        noProductsmatchError:'//div[@id="entry_212469"]/p',
         toastHeader:'.toast-header',
         toastCloseButton:'.close'
 

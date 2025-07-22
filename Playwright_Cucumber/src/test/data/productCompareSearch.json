@@ -1,0 +1,9 @@
+{
+  "searchTerms": {
+    "emptySearch": " ",
+    "macProducts": "mac", 
+    "mobileProducts": "mobile",
+    "laptopProducts": "laptop",
+    "invalidProduct": "xyz123"
+  }
+}
