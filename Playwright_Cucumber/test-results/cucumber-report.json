@@ -4,17 +4,25 @@
     "elements": [
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "jeevika_21jul2025_lambdatesters_search;selecting-the-quick-view-option-for-a-product",
+=======
         "id": "jeevika_20jul2025_lambdatesters_addons;user-clicks-on-designs-of-addons",
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
         "keyword": "Scenario",
-        "line": 7,
-        "name": "user clicks on designs of addOns",
+        "line": 43,
+        "name": "Selecting the Quick View option for a product",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 976208699
+=======
               "duration": 158253399
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
@@ -23,16 +31,22 @@
             "line": 4,
             "name": "the user is on the homepage",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:11"
+              "location": "src\\test\\steps\\loginstep.ts:13"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 3201279200
+=======
               "duration": 5027011199
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
+=======
             "line": 8,
             "name": "the user clicks on addons",
             "match": {
@@ -2285,129 +2299,68 @@
           {
             "arguments": [],
             "keyword": "And ",
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             "line": 44,
-            "name": "the user clicks CheckOut",
+            "name": "the user clicks on Shop by Category",
             "match": {
-              "location": "src\\test\\steps\\productCheckOutstep.ts:18"
+              "location": "src\\test\\steps\\searchStep.ts:31"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 148836900
+=======
               "duration": 2227817200
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 45,
-            "name": "Select Registered user CheckOut",
+            "name": "selects a specific category from the list",
             "match": {
-              "location": "src\\test\\steps\\productCheckOutstep.ts:50"
+              "location": "src\\test\\steps\\searchStep.ts:36"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1365868900
+=======
               "duration": 1465749299
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Field",
-                      "Value"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "First Name",
-                      "John"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Last Name",
-                      "Doe"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Email",
-                      ""
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Telephone",
-                      "1234567890"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Pass",
-                      "1234"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Confirm pass",
-                      "1234"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Address",
-                      "123 Main St"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "City",
-                      "Salem"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Postcode",
-                      "12345"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Country",
-                      "India"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Region",
-                      "Assam"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 46,
-            "name": "Enter the details in payment register form as new user in checkout:",
-            "match": {
-              "location": "src\\test\\steps\\productCheckOutstep.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1308951600
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 59,
-            "name": "the user accepts the terms and condition",
+            "line": 46,
+            "name": "hovers over a product",
             "match": {
-              "location": "src\\test\\steps\\productCheckOutstep.ts:30"
+              "location": "src\\test\\steps\\searchStep.ts:80"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1580994300
+=======
+              "duration": 1308951600
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "clicks the Quick View option",
+            "match": {
+              "location": "src\\test\\steps\\searchStep.ts:85"
+            },
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD
+              "duration": 396114700
+=======
               "duration": 474785499
             }
           },
@@ -2500,19 +2453,24 @@
             "result": {
               "status": "passed",
               "duration": 2314398799
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 67,
-            "name": "the product reordered message should be displayed",
+            "line": 48,
+            "name": "the user should see the product preview with the description",
             "match": {
-              "location": "src\\test\\steps\\myOrderstep.ts:30"
+              "location": "src\\test\\steps\\searchStep.ts:125"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 54690299
+=======
               "duration": 70232400
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           },
           {
@@ -2520,12 +2478,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 110599700
+=======
               "duration": 13642900
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@select_quickview_in_products",
+            "line": 42
+=======
             "name": "@MyOrders",
             "line": 2
           },
@@ -2815,11 +2781,15 @@
           {
             "name": "@ViewOrderAsGuest",
             "line": 69
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
+    "id": "jeevika_21jul2025_lambdatesters_search",
+=======
     "id": "saranya_16apr2025_lambdatesters_my_orders_feature",
     "line": 3,
     "keyword": "Feature",
@@ -3284,10 +3254,14 @@
       }
     ],
     "id": "soundar_11jul2025_lambdatesters_productreview",
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
     "line": 1,
     "keyword": "Feature",
-    "name": "Soundar_11JUL2025_LambdaTesters_ProductReview",
+    "name": "Jeevika_21JUL2025_LambdaTesters_Search",
     "tags": [],
+<<<<<<< HEAD
+    "uri": "src\\test\\features\\Search.feature"
+=======
     "uri": "src\\test\\features\\ProductReview.feature"
   },
   {
@@ -7859,5 +7833,6 @@
     "name": "Soundar_11JUL2025_LambdaTesters_UserAccountManagement",
     "tags": [],
     "uri": "src\\test\\features\\useraccount.feature"
+>>>>>>> 5b0736b0aef862cb5f899f63f9233f3c5900501a
   }
 ]

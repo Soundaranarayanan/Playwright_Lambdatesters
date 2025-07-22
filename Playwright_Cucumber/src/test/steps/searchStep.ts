@@ -28,10 +28,6 @@ Then('the {string} should be displayed', async function (expected: string) {
   }
 });
 
-
-
-
-
 When('the user clicks on Shop by Category', async function () {
     const searchPage = new SearchPage(pageFixture.page!);
   await searchPage.clickShopByCategory();
@@ -58,10 +54,22 @@ Then('the user should see all products within that value range', async function 
   expect(isValid).toBeTruthy();
 });
 
-When('the user selects {string} products to display from the dropdown', async function (count: string) {
+// When('the user selects {string} products to display from the dropdown', async function (count: string) {
+//     const searchPage = new SearchPage(pageFixture.page!);
+//   await searchPage.selectProductCount(count);
+// });
+
+// When('the user selects {string} products to display from the dropdown', async (count) => {
+//   const dropdown = page.locator('select[id^="input-limit"]');
+//   await dropdown.selectOption({ label: count });
+// });
+
+When('the user selects {string} products to display from the dropdown', async (count) => {
     const searchPage = new SearchPage(pageFixture.page!);
   await searchPage.selectProductCount(count);
 });
+
+
 
 Then('the user should see exactly {string} products displayed on the page', async function (count: string) {
     const searchPage = new SearchPage(pageFixture.page!);
@@ -79,22 +87,71 @@ When('clicks the Quick View option', async function () {
   await searchPage.clickQuickView();
 });
 
+// Then('the user should see the product preview with the description', async function () {
+// //     const searchPage = new SearchPage(pageFixture.page!);
+// //   const visible = await searchPage.isQuickViewDisplayed();
+// //   expect(visible).toBeTruthy();
+
+// const descriptionLocator = this.page.locator('selector-for-description');
+
+// const isVisible = await descriptionLocator.isVisible();
+// console.log("Is Description Visible? =>", isVisible);
+
+// const descriptionText = await descriptionLocator.textContent();
+// console.log("Description Text =>", descriptionText);
+
+// expect(isVisible).toBeTruthy();
+
+// });
+
+
+// Then('the user should see the product preview with the description', async function () {
+//   const descriptionLocator = this.page.locator('.product-desc'); // Update this selector based on your HTML
+
+//   // Debugging logs
+//   console.log('>> Checking if product description is visible');
+//   const isVisible = await descriptionLocator.isVisible();
+//   console.log('>> isVisible:', isVisible);
+
+//   console.log('>> Checking inner text of the description element');
+//   const innerText = await descriptionLocator.textContent();
+//   console.log('>> innerText:', innerText);
+
+//   expect(isVisible).toBeTruthy(); // This is where your test is failing
+// });
+
+
+
 Then('the user should see the product preview with the description', async function () {
-    const searchPage = new SearchPage(pageFixture.page!);
+  const searchPage = new SearchPage(pageFixture.page!);
   const visible = await searchPage.isQuickViewDisplayed();
-  expect(visible).toBeTruthy();
+
+  console.log("✅ Quick view visible:", visible);
+  expect(visible).toBeTruthy(); // Assertion stays
 });
+
+
 
 When('clicks the Add To Cart option', async function () {
     const searchPage = new SearchPage(pageFixture.page!);
   await searchPage.clickAddToCart();
 });
 
+// Then('the user sees a popup message', async function () {
+//     const searchPage = new SearchPage(pageFixture.page!);
+//   const isVisible = await searchPage.isPopupMessageVisible();
+//   expect(isVisible).toBeTruthy();
+// });
+
 Then('the user sees a popup message', async function () {
-    const searchPage = new SearchPage(pageFixture.page!);
+  const searchPage = new SearchPage(pageFixture.page!);
   const isVisible = await searchPage.isPopupMessageVisible();
-  expect(isVisible).toBeTruthy();
+
+  console.log("DEBUG: isPopupMessageVisible result:", isVisible);
+  expect(isVisible).toBeTruthy(); // this is line 143
 });
+
+
 
 Then('clicks on checkout button to see checkout page', async function () {
     const searchPage = new SearchPage(pageFixture.page!);
