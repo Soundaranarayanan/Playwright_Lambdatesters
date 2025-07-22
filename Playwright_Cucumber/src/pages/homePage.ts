@@ -24,7 +24,8 @@ export default class HomePage {
         activeBanner: "div.carousel-item.active img",
         trendingProduct: "//a[.//img[@alt='Laptops']]",
         trendingMac: "img[alt='Macs']:first-of-type, img[alt='iMac']:first-of-type",
-        trendingProductParagraph: "//*[@id='entry_212395']/div/p"
+        trendingProductParagraph: "//div[@id='entry_212395']/div/p",
+        trendingProductTitle: "//div[@id='entry_216816']/h1"
     }
 
     async block1click() {
@@ -55,9 +56,10 @@ export default class HomePage {
     }
 
     async trendMacDescription() {
-        let retrivedtext: string = await this.base.getText(this.HomePageElements.trendingProductParagraph);
-        const productDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper auctor neque vitae tempus quam pellentesque. Facilisis leo vel fringilla est ullamcorper. Tellus id interdum velit laoreet id donec ultrices tincidunt. Vitae nunc sed velit dignissim sodales. Mi proin sed libero enim sed. Mi quis hendrerit dolor magna eget est lorem ipsum.";
-        expect(retrivedtext).toBe(productDescription);
+        let retrivedtext: string = await this.base.getText(this.HomePageElements.trendingProductTitle);
+        // const productDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper auctor neque vitae tempus quam pellentesque. Facilisis leo vel fringilla est ullamcorper. Tellus id interdum velit laoreet id donec ultrices tincidunt. Vitae nunc sed velit dignissim sodales. Mi proin sed libero enim sed. Mi quis hendrerit dolor magna eget est lorem ipsum.";
+        const producttitle='iMac';
+        expect(retrivedtext).toBe(producttitle);
     }
 
     async getAllLinks(): Promise<string[]> {

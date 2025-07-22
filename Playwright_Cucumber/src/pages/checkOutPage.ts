@@ -86,6 +86,24 @@ export default class CheckoutPage{
         
 
     }
+    async fillGuestCheckoutForm(formData: Record<string, string>): Promise<void>{
+        
+
+        await this.base.fill(this.ProductCheckoutPageElements.paymentFname, formData['First Name']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentLname, formData['Last Name']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentEmail, formData['Email']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentTelephone, formData['Telephone']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentAddress, formData['Address']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentCity, formData['City']);
+        await this.base.fill(this.ProductCheckoutPageElements.paymentPostcode, formData['Postcode']);
+        // await this.base.fill(this.ProductCheckoutPageElements.pass, '1234');
+        // await this.base.fill(this.ProductCheckoutPageElements.confirmpass, '1234');
+
+        await this.base.select(this.ProductCheckoutPageElements.countryDropdown, formData['Country']);
+        await this.base.select(this.ProductCheckoutPageElements.regionDropdown, formData['Region']);
+        
+
+    }
     async waitforsometime(ms: number): Promise<void> {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
