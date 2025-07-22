@@ -78,7 +78,7 @@ async click(locator: string | Locator) {
     }
   }
 
-async isVisible(locator: string | Locator): Promise<boolean> {
+      async isVisible(locator: string | Locator): Promise<boolean> {
         const element = typeof locator === "string" ? this.page.locator(locator) : locator;
         try {
             await element.waitFor({ state: "visible", timeout: 5000 });

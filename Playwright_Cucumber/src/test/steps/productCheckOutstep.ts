@@ -23,8 +23,8 @@ When('Select Guest CheckOut', async function () {
          });
  When('Enter the details in form:', async function (dataTable) {
            const formData = dataTable.rowsHash();
-           await pageFixture.checkoutPage!.fillCheckoutForm(formData);
-        //    add sleep to ensure the form is filled before proceeding
+           await pageFixture.checkoutPage!.fillGuestCheckoutForm(formData);
+        
            await pageFixture.checkoutPage!.waitforsometime(5000);
          });
 When('the user accepts the terms and condition', async function () {
