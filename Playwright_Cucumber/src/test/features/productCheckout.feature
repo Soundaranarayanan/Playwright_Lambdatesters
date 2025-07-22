@@ -1,5 +1,5 @@
 @Checkout
-Feature: Saranya_12APR2025_LambdaTesters_Shopping_Cart_CheckOut_functionality
+Feature: Saranya_21JUL2025_LambdaTesters_Shopping_Cart_CheckOut_functionality
 Background:
   Given the user is on the homepage 
 

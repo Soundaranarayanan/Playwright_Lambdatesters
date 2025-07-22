@@ -23,13 +23,10 @@ export default class AddOnDesignPage{
        
         await this.page.waitForSelector(this.addOnDesignPageElements.alertRemoveBtn, { timeout: 5000 });
         
-        const beforeCount = await this.getAlertDivsCount();
-        
         await this.page.click(this.addOnDesignPageElements.alertRemoveBtn);
         
         await this.page.waitForTimeout(1000);
-        
-        const afterCount = await this.getAlertDivsCount();
+       
         
     }
 

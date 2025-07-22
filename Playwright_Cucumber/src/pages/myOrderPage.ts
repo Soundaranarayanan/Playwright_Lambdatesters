@@ -16,7 +16,7 @@ export default class MyOrderPage{
        eyeIcon:"#content > div.table-responsive > table > tbody > tr:nth-child(1) > td:nth-child(7) > a",
        reorderbtn:"#content > div.table-responsive > table > tbody > tr > td:nth-child(6) > a.btn.btn-primary",
     //    reordersuccessmsg:"//*[@id='account-order']/div[1]/text()[1]"
-       reordersuccessmsg: "//div[contains(@class, 'alert-success') and contains(text(), 'Success: You have added')]"
+       reordersuccessmsg: "//div[contains(@class,'alert-success') and contains(text(),'Success: You have added')]"
 
     }
 

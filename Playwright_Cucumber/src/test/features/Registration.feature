@@ -1,5 +1,5 @@
 @registration
-Feature: Saranya_10JUL2025_LambdaTesters_User_Registration_Functionality
+Feature: Saranya_18JUL2025_LambdaTesters_User_Registration_Functionality
 
   I want to register for the ecommerce LambdaTest account
   
@@ -21,8 +21,7 @@ Feature: Saranya_10JUL2025_LambdaTesters_User_Registration_Functionality
       # | saran      | A         |                    | 1239306     | 12345    | 12345            |  
 
   @InValidRegistrationInputs
-  Scenario Outline: Register with invalid inputs  
-    # When the user enters the invalid inputs "<First Name>", "<Last Name>", "<Email>", "<Telephone>", "<Password>" and "<Confirm Password>"  
+  Scenario Outline: Register with invalid inputs    
     When the user enters invalid "<First Name>", "<Last Name>", "<Email>", "<Telephone>", "<Password>" and "<Confirm Password>"
     And agrees to the Privacy Policy
     And submits the registration form  

@@ -36,7 +36,7 @@ export default class CheckoutPage{
     confirmOrder: "//*[@id='button-confirm']",
     orderSuccessMessage: "//*[@id='content']/p[2]",
     checkBoxWarn: "//*[@id='form-checkout']/div[1]",
-    // emptyCartMessage: "//*[@id='content']/p",
+    // emptyCartMessage: "//DIV[@id='content']/p",
     emptyCartMessage:"text=Your shopping cart is empty!",
     existingAdd: "//*[@id='payment-address']/div[1]/div[1]",
     newAdd: "//*[@id='payment-address']/div[2]/div/label",

@@ -1,5 +1,5 @@
 @HomePage
-Feature: Saranya_20APR2025_LamdaTesters_Feature file for HomePage Assertion
+Feature: Saranya_20JUL2025_LamdaTesters_Feature file for HomePage Assertion
   I want to use this template for my feature file
   
   Background:
